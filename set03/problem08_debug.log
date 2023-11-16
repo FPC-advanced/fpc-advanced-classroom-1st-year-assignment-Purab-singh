@@ -1,0 +1,15 @@
++l
+10	    float perimeter;
+11	} Polygon;
+12	
+13	int input_n();
+14	Point input_point();
+15	void input_polygon(Polygon *p);
+16	float find_distance(Polygon p);
+17	void find_perimeter(Polygon* p,float distance);
+18	void output(Polygon p);
+19	int main()
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set03\problem08.exe 
+[New Thread 9476.0x2820]
+warning: Can not parse XML library list; XML support was disabled at compile time
