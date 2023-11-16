@@ -1,0 +1,20 @@
++l
+1	    #include<stdio.h>
+2	    int input();
+3	    int compare(int a, int b, int c);
+4	    void output(int a, int b, int c, int largest);
+5	    int main()
+6	    {
+7	        int a,b,c,largest;
+8	        a=input();
+9	        b=input();
+10	        c=input();
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem05.exe 
+[New Thread 11420.0x21f0]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 11420.0x21f0 exited with code 0]
+[Inferior 1 (process 11420) exited normally]
++1
+Undefined command: "1".  Try "help".
++q
