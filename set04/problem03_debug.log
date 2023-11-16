@@ -1,0 +1,22 @@
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem03.exe 
+[New Thread 6228.0x31e4]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 6228.0x31e4 exited with code 0]
+[Inferior 1 (process 6228) exited normally]
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem03.exe 
+[New Thread 8888.0x2dc8]
+[Thread 8888.0x2dc8 exited with code 0]
+[Inferior 1 (process 8888) exited normally]
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem03.exe 
+[New Thread 3952.0x2100]
+[Thread 3952.0x2100 exited with code 0]
+[Inferior 1 (process 3952) exited normally]
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem03.exe 
+[New Thread 4688.0x1e4c]
+[Thread 4688.0x1e4c exited with code 0]
+[Inferior 1 (process 4688) exited normally]
++q
