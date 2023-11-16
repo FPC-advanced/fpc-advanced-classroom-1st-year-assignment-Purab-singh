@@ -111,3 +111,10 @@ which has no line number information.
 +n
 The program is not being run.
 +q
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem04.exe 
+[New Thread 9100.0x2e68]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 9100.0x2e68 exited with code 0]
+[Inferior 1 (process 9100) exited normally]
++q
