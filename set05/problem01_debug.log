@@ -1,0 +1,41 @@
++b 30
+Breakpoint 1 at 0x140001691: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c, line 32.
++r
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.exe 
+[New Thread 9900.0x2750]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, dist (a=..., b=..., res=0xe13d1ffd8c) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:32
+32	    *res=((b.x*b.x)-(a.x*a.x))+((b.y*b.y)-(a.y*a.y));
++step
+34	    x=*res;
++print res
+$1 = (float *) 0xe13d1ffd8c
++print *res
+$2 = 0
++print     *res=((b.x*b.x)-(a.x*a.x))+((b.y*b.y)-(a.y*a.y));
+Invalid character ';' in expression.
++print     *res=((b.x*b.x)-(a.x*a.x))+((b.y*b.y)-(a.y*a.y))
+$3 = 0
++r
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.exe 
+[New Thread 5788.0xfcc]
+
+Thread 1 hit Breakpoint 1, dist (a=..., b=..., res=0x5539bff9ac) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:32
+32	    *res=((b.x*b.x)-(a.x*a.x))+((b.y*b.y)-(a.y*a.y));
++n
+34	    x=*res;
++n
+35	    while(x*x - *res>0.0001)
++n
+40	    *res=x;
++n
+42	}
++n
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:19
+19	    output(a,b,res);
++n
+20	    return 0;
++n
+21	}
++q

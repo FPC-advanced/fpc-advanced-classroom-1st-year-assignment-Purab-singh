@@ -1,0 +1,63 @@
+Compilation started at 11/6/2023, 10:28:32 AM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c: In function 'main':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:19:5: warning: implicit declaration of function 'input_n_fraction'; did you mean 'input_n_fractions'? [-Wimplicit-function-declaration]
+   19 |     input_n_fraction(n,f);
+      |     ^~~~~~~~~~~~~~~~
+      |     input_n_fractions
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\purab\AppData\Local\Temp\ccmetDTR.o: in function `main':
+c:/Users/purab/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Purab-singh/set04/problem08.c:19: undefined reference to `input_n_fraction'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/6/2023, 10:28:33 AM
+Compilation started at 11/6/2023, 10:31:12 AM
+Compilation finished at 11/6/2023, 10:31:13 AM
+Compilation started at 11/6/2023, 10:38:17 AM
+Compilation finished at 11/6/2023, 10:38:17 AM
+Compilation started at 11/6/2023, 10:41:26 AM
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/6/2023, 10:41:26 AM
+Compilation started at 11/6/2023, 10:41:34 AM
+Compilation finished at 11/6/2023, 10:41:34 AM
+Compilation started at 11/6/2023, 10:43:32 AM
+Compilation finished at 11/6/2023, 10:43:32 AM
+Compilation started at 11/6/2023, 10:43:43 AM
+Compilation finished at 11/6/2023, 10:43:44 AM
+Compilation started at 11/6/2023, 10:47:40 AM
+Compilation finished at 11/6/2023, 10:47:41 AM
+Compilation started at 11/6/2023, 10:47:59 AM
+Compilation finished at 11/6/2023, 10:47:59 AM
+Compilation started at 11/6/2023, 10:48:32 AM
+Compilation finished at 11/6/2023, 10:48:32 AM
+Compilation started at 11/6/2023, 10:59:29 AM
+Compilation finished at 11/6/2023, 10:59:30 AM
+Compilation started at 11/6/2023, 11:00:01 AM
+Compilation finished at 11/6/2023, 11:00:01 AM
+Compilation started at 11/6/2023, 11:00:30 AM
+Compilation finished at 11/6/2023, 11:00:31 AM
+Compilation started at 11/6/2023, 11:01:26 AM
+Compilation finished at 11/6/2023, 11:01:26 AM
+Compilation started at 11/6/2023, 11:02:59 AM
+Compilation finished at 11/6/2023, 11:03:00 AM
+Compilation started at 11/6/2023, 11:09:46 AM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c: In function 'add_n_fractions':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:59:9: error: 'f' redeclared as different kind of symbol
+   59 |     int f;
+      |         ^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:40:42: note: previous definition of 'f' with type 'Fraction *' {aka 'struct fraction *'}
+   40 | Fraction add_n_fractions(int n, Fraction f[n])
+      |                                 ~~~~~~~~~^~~~
+Compilation finished at 11/6/2023, 11:09:46 AM
+Compilation started at 11/6/2023, 11:09:57 AM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c: In function 'add_n_fractions':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:64:16: warning: assignment to 'int' from 'Fraction *' {aka 'struct fraction *'} makes integer from pointer without a cast [-Wint-conversion]
+   64 |             gcd=f;
+      |                ^
+Compilation finished at 11/6/2023, 11:09:58 AM
+Compilation started at 11/6/2023, 11:10:03 AM
+Compilation finished at 11/6/2023, 11:10:03 AM
+Compilation started at 11/6/2023, 11:11:22 AM
+Compilation finished at 11/6/2023, 11:11:22 AM
+Compilation started at 11/6/2023, 11:12:54 AM
+Compilation finished at 11/6/2023, 11:12:55 AM
+Compilation started at 11/6/2023, 11:21:58 AM
+Compilation finished at 11/6/2023, 11:21:58 AM

@@ -1,0 +1,43 @@
++b 41
+Breakpoint 1 at 0x1400017a7: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem04.c, line 43.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem04.exe 
+[New Thread 824.0x19b0]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, evaluate_polynomial (n=3, a=0x43a67ff6b0, x=1) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem04.c:43
+43	    float result=0;
++q
++b 15
+Breakpoint 1 at 0x140001674: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem04.c, line 15.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem04.exe 
+[New Thread 8668.0x20f4]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem04.c:15
+15	    result=evaluate_polynomial(n,a,x);
++step
+evaluate_polynomial (n=3, a=0xfc5c9ffa20, x=2) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem04.c:43
+43	    float result=0;
++n
+44	    for(int i=0;i<n;i++)
++n
+46	        result=result+a[i];
++n
+44	    for(int i=0;i<n;i++)
++n
+46	        result=result+a[i];
++n
+44	    for(int i=0;i<n;i++)
++n
+46	        result=result+a[i];
++print result
+$1 = 9
++n
+44	    for(int i=0;i<n;i++)
++n
+50	    result=result/x;
++print result
+$2 = 11
++q

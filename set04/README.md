@@ -81,7 +81,7 @@ void output(int n, float a[n], float x, float result);
 ***Input***
 ```
 1
-1 1
+1 1 
 1
 ```
 

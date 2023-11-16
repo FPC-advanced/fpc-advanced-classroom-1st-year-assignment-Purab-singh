@@ -1,0 +1,673 @@
++b 20
+Breakpoint 1 at 0x14000165d: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c, line 20.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.exe 
+[New Thread 6908.0x3508]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, input (x=0) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:20
+warning: Source file is more recent than executable.
+20	}
++n
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:10
+10	    result=borga_X(x);
++step
+borga_X (x=5) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:24
+24	    float result=1,temp_result=1;
++n
+25	    int i,fact=1,temp=1;
++n
+26	    for(i=3;i<=100;i=i+2)
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++print fact
+$1 = 2
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+32	        temp=temp*x;
++print fact
+$2 = 6
++print temp
+$3 = 5
++n
+34	        temp_result=temp_result +(temp/fact);
++print temp_result
+$4 = 1
++n
+35	        if(temp_result>=0.000001)
++n
+37	            result=temp_result;
++n
+38	            fact=1;
++n
+26	    for(i=3;i<=100;i=i+2)
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++print fact
+$5 = 1
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++print fact
+$6 = 6
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+32	        temp=temp*x;
++print fact
+$7 = 120
++n
+34	        temp_result=temp_result +(temp/fact);
++print temp
+$8 = 125
++n
+35	        if(temp_result>=0.000001)
++print temp_result
+$9 = 6
++n
+37	            result=temp_result;
++n
+38	            fact=1;
++n
+26	    for(i=3;i<=100;i=i+2)
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+32	        temp=temp*x;
++n
+34	        temp_result=temp_result +(temp/fact);
++n
+35	        if(temp_result>=0.000001)
++n
+37	            result=temp_result;
++print result
+$10 = 6
++n
+38	            fact=1;
++print result
+$11 = 6
++n
+26	    for(i=3;i<=100;i=i+2)
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+32	        temp=temp*x;
++n
+34	        temp_result=temp_result +(temp/fact);
++n
+35	        if(temp_result>=0.000001)
++print temp_result
+$12 = 6
++n
+37	            result=temp_result;
++n
+38	            fact=1;
++n
+26	    for(i=3;i<=100;i=i+2)
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++print i
+$13 = 11
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+32	        temp=temp*x;
++n
+34	        temp_result=temp_result +(temp/fact);
++n
+35	        if(temp_result>=0.000001)
++print temp_result
+$14 = 6
++n
+37	            result=temp_result;
++n
+38	            fact=1;
++n
+26	    for(i=3;i<=100;i=i+2)
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++nnn
+Undefined command: "nnn".  Try "help".
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++nn
+Undefined command: "nn".  Try "help".
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+32	        temp=temp*x;
++n
+34	        temp_result=temp_result +(temp/fact);
++n
+35	        if(temp_result>=0.000001)
++print temp_result
+$15 = 6
++n
+37	            result=temp_result;
++print result
+$16 = 6
++m
+Ambiguous command "m": macro, maintenance, make, mem, memory-tag, monitor, mt.
++m
+Ambiguous command "m": macro, maintenance, make, mem, memory-tag, monitor, mt.
++n
+38	            fact=1;
++n
+26	    for(i=3;i<=100;i=i+2)
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++nn
+Undefined command: "nn".  Try "help".
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++nn
+Undefined command: "nn".  Try "help".
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+32	        temp=temp*x;
++n
+34	        temp_result=temp_result +(temp/fact);
++n
+35	        if(temp_result>=0.000001)
++n
+37	            result=temp_result;
++n
+38	            fact=1;
++n
+26	    for(i=3;i<=100;i=i+2)
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+32	        temp=temp*x;
++n
+34	        temp_result=temp_result +(temp/fact);
++n
+35	        if(temp_result>=0.000001)
++n
+37	            result=temp_result;
++n
+38	            fact=1;
++n
+26	    for(i=3;i<=100;i=i+2)
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+32	        temp=temp*x;
++n
+34	        temp_result=temp_result +(temp/fact);
++n
+35	        if(temp_result>=0.000001)
++n
+37	            result=temp_result;
++n
+38	            fact=1;
++print result
+$17 = 6
++print fact
+$18 = 109641728
++print temp/fact
+$19 = 0
++print temp%facr
+No symbol "facr" in current context.
++print temp%fact
+$20 = 9765625
++q
++b 21
+Breakpoint 1 at 0x14000166e: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c, line 24.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.exe 
+[New Thread 7680.0x3008]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, borga_X (x=5) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:24
+warning: Source file is more recent than executable.
+24	    float result=1,temp_result=1;
++n
+25	    float fact=1,temp=1;
++n
+26	    int i;
++n
+28	    {
++n
+30	        {
++n
+28	    {
++n
+30	        {
++n
+28	    {
++n
+30	        {
++n
+28	    {
++n
+32	        }
++n
+35	        // printf("%d\n",temp);
++n
+37	        // printf("%f\n",temp_result);
++n
+39	        {
++n
+52	return result;
++n
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:11
+11	    output(x,result);
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.exe 
+[New Thread 11284.0x2c9c]
+
+Thread 1 hit Breakpoint 1, borga_X (x=5) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:24
+24	    float result=1,temp_result=1;
++step
+25	    float fact=1,temp=1;
++n
+26	    int i;
++n
+28	    {
++n
+30	        {
++n
+28	    {
++n
+30	        {
++n
+28	    {
++n
+30	        {
++n
+28	    {
++n
+32	        }
++n
+35	        // printf("%d\n",temp);
++n
+37	        // printf("%f\n",temp_result);
++b 1-
+Function "1-" not defined.
+Please answer y or [n].
+Breakpoint 2 (1-) pending.
++b1-
+Undefined command: "b1-".  Try "help".
++q

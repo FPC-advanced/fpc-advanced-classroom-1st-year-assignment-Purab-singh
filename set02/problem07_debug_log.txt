@@ -1,0 +1,58 @@
+1	#include<stdio.h>
+2	 struct _triangle {
+3		float base, altitude, area;
+4	};
+5	typedef struct _triangle Triangle;
+6	
+7	Triangle input_triangle();
+8	void find_area(Triangle *t);
+9	void output(Triangle t);
+10	int main()
+11	{
+12	    Triangle t;
+13	    t=input_triangle();
+14	    find_area(&t);
+15	    output(t);
+16	    return 0;
+17	
+18	}
+19	Triangle input_triangle()
+20	{
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem07.exe 
+[New Thread 7048.0xdd0]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 7048.0xdd0 exited with code 0]
+[Inferior 1 (process 7048) exited normally]
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem07.exe 
+[New Thread 3432.0x280c]
+[Thread 3432.0x280c exited with code 0]
+[Inferior 1 (process 3432) exited normally]
+Breakpoint 1 at 0x7ff72ee015ef: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem07.c, line 13.
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem07.exe 
+[New Thread 11444.0x35c0]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem07.c:13
+13	    t=input_triangle();
+input_triangle () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem07.c:22
+22	    printf("ente the base and height of the triangle");
+23	    scanf("%f %f",&x.base,&x.altitude);
+24	    return x;
+26	}
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem07.c:14
+14	    find_area(&t);
+find_area (t=0x86e37ffc04) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem07.c:29
+29	    t->area=0;
+30	    t->area=0.5*(t->base*t->altitude);
+31	}
+No symbol "area" in current context.
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem07.c:15
+15	    output(t);
+No symbol "area" in current context.
+16	    return 0;
+$1 = 1
+18	}
+0x00007ff72ee013c1 in __tmainCRTStartup ()
+Single stepping until exit from function __tmainCRTStartup,
+which has no line number information.
+[Thread 11444.0x35c0 exited with code 0]
+[Inferior 1 (process 11444) exited normally]

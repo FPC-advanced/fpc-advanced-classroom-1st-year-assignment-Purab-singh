@@ -1,0 +1,283 @@
+Compilation started at 11/4/2023, 1:41:43 PM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c: In function 'main':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:10:18: warning: passing argument 1 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+   10 |     input_string(&string);
+      |                  ^~~~~~~
+      |                  |
+      |                  char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:3:25: note: expected 'char *' but argument is of type 'char (*)[100]'
+    3 | void input_string(char *string);
+      |                   ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:11:26: warning: passing argument 1 of 'count_words' from incompatible pointer type [-Wincompatible-pointer-types]
+   11 |     no_words=count_words(&string);
+      |                          ^~~~~~~
+      |                          |
+      |                          char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:4:23: note: expected 'char *' but argument is of type 'char (*)[100]'
+    4 | int count_words(char *string);
+      |                 ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:12:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |     output(&string,no_words);
+      |            ^~~~~~~
+      |            |
+      |            char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:5:19: note: expected 'char *' but argument is of type 'char (*)[100]'
+    5 | void output(char *string, int no_words);
+      |             ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c: In function 'count_words':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:23:21: error: invalid initializer
+   23 |     const char a[2]=' ';
+      |                     ^~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:26:10: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   26 |     token=strtok(string,a);
+      |          ^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:27:16: warning: comparison between pointer and integer
+   27 |     while(token!=NULL)
+      |                ^~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:30:14: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   30 |         token=strtok(NULL,a);
+      |              ^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c: In function 'output':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:38:43: error: 'x' undeclared (first use in this function)
+   38 |     printf("the string contains %d words",x);
+      |                                           ^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:38:43: note: each undeclared identifier is reported only once for each function it appears in
+Compilation finished at 11/4/2023, 1:41:44 PM
+Compilation started at 11/4/2023, 1:41:56 PM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c: In function 'main':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:10:18: warning: passing argument 1 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+   10 |     input_string(&string);
+      |                  ^~~~~~~
+      |                  |
+      |                  char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:3:25: note: expected 'char *' but argument is of type 'char (*)[100]'
+    3 | void input_string(char *string);
+      |                   ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:11:26: warning: passing argument 1 of 'count_words' from incompatible pointer type [-Wincompatible-pointer-types]
+   11 |     no_words=count_words(&string);
+      |                          ^~~~~~~
+      |                          |
+      |                          char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:4:23: note: expected 'char *' but argument is of type 'char (*)[100]'
+    4 | int count_words(char *string);
+      |                 ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:12:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |     output(&string,no_words);
+      |            ^~~~~~~
+      |            |
+      |            char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:5:19: note: expected 'char *' but argument is of type 'char (*)[100]'
+    5 | void output(char *string, int no_words);
+      |             ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c: In function 'count_words':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:23:21: error: invalid initializer
+   23 |     const char a[2]=' ';
+      |                     ^~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:26:10: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   26 |     token=strtok(string,a);
+      |          ^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:27:16: warning: comparison between pointer and integer
+   27 |     while(token!=NULL)
+      |                ^~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:30:14: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   30 |         token=strtok(NULL,a);
+      |              ^
+Compilation finished at 11/4/2023, 1:41:56 PM
+Compilation started at 11/4/2023, 1:42:16 PM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c: In function 'main':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:10:18: warning: passing argument 1 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+   10 |     input_string(&string);
+      |                  ^~~~~~~
+      |                  |
+      |                  char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:3:25: note: expected 'char *' but argument is of type 'char (*)[100]'
+    3 | void input_string(char *string);
+      |                   ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:11:26: warning: passing argument 1 of 'count_words' from incompatible pointer type [-Wincompatible-pointer-types]
+   11 |     no_words=count_words(&string);
+      |                          ^~~~~~~
+      |                          |
+      |                          char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:4:23: note: expected 'char *' but argument is of type 'char (*)[100]'
+    4 | int count_words(char *string);
+      |                 ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:12:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |     output(&string,no_words);
+      |            ^~~~~~~
+      |            |
+      |            char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:5:19: note: expected 'char *' but argument is of type 'char (*)[100]'
+    5 | void output(char *string, int no_words);
+      |             ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c: In function 'count_words':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:23:21: error: invalid initializer
+   23 |     const char a[2]=' ';
+      |                     ^~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:26:10: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   26 |     token=strtok(string,a);
+      |          ^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:27:16: warning: comparison between pointer and integer
+   27 |     while(token!=NULL)
+      |                ^~
+Compilation finished at 11/4/2023, 1:42:16 PM
+Compilation started at 11/4/2023, 1:42:35 PM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c: In function 'main':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:10:18: warning: passing argument 1 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+   10 |     input_string(&string);
+      |                  ^~~~~~~
+      |                  |
+      |                  char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:3:25: note: expected 'char *' but argument is of type 'char (*)[100]'
+    3 | void input_string(char *string);
+      |                   ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:11:26: warning: passing argument 1 of 'count_words' from incompatible pointer type [-Wincompatible-pointer-types]
+   11 |     no_words=count_words(&string);
+      |                          ^~~~~~~
+      |                          |
+      |                          char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:4:23: note: expected 'char *' but argument is of type 'char (*)[100]'
+    4 | int count_words(char *string);
+      |                 ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:12:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |     output(&string,no_words);
+      |            ^~~~~~~
+      |            |
+      |            char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:5:19: note: expected 'char *' but argument is of type 'char (*)[100]'
+    5 | void output(char *string, int no_words);
+      |             ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c: In function 'count_words':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:26:10: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   26 |     token=strtok(string,a);
+      |          ^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:27:16: warning: comparison between pointer and integer
+   27 |     while(token!=NULL)
+      |                ^~
+Compilation finished at 11/4/2023, 1:42:35 PM
+Compilation started at 11/4/2023, 1:43:14 PM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c: In function 'main':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:10:18: warning: passing argument 1 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+   10 |     input_string(&string);
+      |                  ^~~~~~~
+      |                  |
+      |                  char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:3:25: note: expected 'char *' but argument is of type 'char (*)[100]'
+    3 | void input_string(char *string);
+      |                   ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:11:26: warning: passing argument 1 of 'count_words' from incompatible pointer type [-Wincompatible-pointer-types]
+   11 |     no_words=count_words(&string);
+      |                          ^~~~~~~
+      |                          |
+      |                          char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:4:23: note: expected 'char *' but argument is of type 'char (*)[100]'
+    4 | int count_words(char *string);
+      |                 ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:12:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |     output(&string,no_words);
+      |            ^~~~~~~
+      |            |
+      |            char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:5:19: note: expected 'char *' but argument is of type 'char (*)[100]'
+    5 | void output(char *string, int no_words);
+      |             ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c: In function 'count_words':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:26:10: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   26 |     token=strtok(string,a);
+      |          ^
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/4/2023, 1:43:14 PM
+Compilation started at 11/4/2023, 1:43:26 PM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c: In function 'main':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:10:18: warning: passing argument 1 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+   10 |     input_string(&string);
+      |                  ^~~~~~~
+      |                  |
+      |                  char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:3:25: note: expected 'char *' but argument is of type 'char (*)[100]'
+    3 | void input_string(char *string);
+      |                   ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:11:26: warning: passing argument 1 of 'count_words' from incompatible pointer type [-Wincompatible-pointer-types]
+   11 |     no_words=count_words(&string);
+      |                          ^~~~~~~
+      |                          |
+      |                          char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:4:23: note: expected 'char *' but argument is of type 'char (*)[100]'
+    4 | int count_words(char *string);
+      |                 ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:12:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |     output(&string,no_words);
+      |            ^~~~~~~
+      |            |
+      |            char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:5:19: note: expected 'char *' but argument is of type 'char (*)[100]'
+    5 | void output(char *string, int no_words);
+      |             ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c: In function 'count_words':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:26:10: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   26 |     token=strtok(string,a);
+      |          ^
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/4/2023, 1:43:26 PM
+Compilation started at 11/4/2023, 1:43:42 PM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c: In function 'main':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:10:18: warning: passing argument 1 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+   10 |     input_string(&string);
+      |                  ^~~~~~~
+      |                  |
+      |                  char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:3:25: note: expected 'char *' but argument is of type 'char (*)[100]'
+    3 | void input_string(char *string);
+      |                   ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:11:26: warning: passing argument 1 of 'count_words' from incompatible pointer type [-Wincompatible-pointer-types]
+   11 |     no_words=count_words(&string);
+      |                          ^~~~~~~
+      |                          |
+      |                          char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:4:23: note: expected 'char *' but argument is of type 'char (*)[100]'
+    4 | int count_words(char *string);
+      |                 ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:12:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |     output(&string,no_words);
+      |            ^~~~~~~
+      |            |
+      |            char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:5:19: note: expected 'char *' but argument is of type 'char (*)[100]'
+    5 | void output(char *string, int no_words);
+      |             ~~~~~~^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c: In function 'input_string':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:18:11: warning: passing argument 1 of 'fgets' makes pointer from integer without a cast [-Wint-conversion]
+   18 |     fgets(*string,100,stdin);
+      |           ^~~~~~~
+      |           |
+      |           char
+In file included from c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:1:
+c:\mingw\x86_64-w64-mingw32\include\stdio.h:625:43: note: expected 'char * restrict' but argument is of type 'char'
+  625 |   char *__cdecl fgets(char * __restrict__ _Buf,int _MaxCount,FILE * __restrict__ _File);
+      |                       ~~~~~~~~~~~~~~~~~~~~^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c: In function 'count_words':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.c:26:10: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   26 |     token=strtok(string,a);
+      |          ^
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/4/2023, 1:43:42 PM
+Compilation started at 11/4/2023, 1:50:32 PM
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/4/2023, 1:50:32 PM
+Compilation started at 11/4/2023, 1:50:37 PM
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/4/2023, 1:50:38 PM
+Compilation started at 11/4/2023, 1:51:24 PM
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/4/2023, 1:51:24 PM
+Compilation started at 11/4/2023, 1:51:45 PM
+Compilation finished at 11/4/2023, 1:51:46 PM
+Compilation started at 11/4/2023, 1:51:52 PM
+Compilation finished at 11/4/2023, 1:51:53 PM
+Compilation started at 11/4/2023, 1:52:37 PM
+Compilation finished at 11/4/2023, 1:52:37 PM

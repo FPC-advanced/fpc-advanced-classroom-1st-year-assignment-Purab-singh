@@ -1,0 +1,61 @@
+1	#include<stdio.h>
+2	 struct _triangle {
+3		float base, altitude, area;
+4	}; 
+5	typedef  struct _triangle Triangle;
+6	int input_n();
+7	
+8	Triangle input_triangle();
+9	void input_n_triangles(int n, Triangle t[n]);
+10	void find_area(Triangle *t);
+Breakpoint 1 at 0x1400016a8: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem08.c, line 19.
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem08.exe 
+[New Thread 832.0x2fd4]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem08.c:19
+19	    input_n_triangles(n,t);
+input_n_triangles (n=3, t=0x89a89ff800) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem08.c:37
+37	    for(i=0;i<n;i++)
+39	        printf("enter the base and height of the triangles\n");
+40	        scanf("%f %f",&t[i].base,&t[i].altitude);
+37	    for(i=0;i<n;i++)
+39	        printf("enter the base and height of the triangles\n");
+40	        scanf("%f %f",&t[i].base,&t[i].altitude);
+37	    for(i=0;i<n;i++)
+39	        printf("enter the base and height of the triangles\n");
+40	        scanf("%f %f",&t[i].base,&t[i].altitude);
+37	    for(i=0;i<n;i++)
+44	}
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem08.c:21
+21	    find_n_areas(n,t);
+find_n_areas (n=3, t=0x89a89ff800) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem08.c:48
+48	    for(i=0;i<n;i++)
+50	        t[i].area= 0.5*t[i].base*t[i].altitude;
+48	    for(i=0;i<n;i++)
+50	        t[i].area= 0.5*t[i].base*t[i].altitude;
+48	    for(i=0;i<n;i++)
+50	        t[i].area= 0.5*t[i].base*t[i].altitude;
+48	    for(i=0;i<n;i++)
+53	}
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem08.c:22
+22	    smallest=find_smallest_triangle(n,t);
+find_smallest_triangle (n=3, t=0x89a89ff800) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem08.c:57
+57	    smallest.area=t[0].area;
+58	    for(int i=1;i<n;i++)
+60	        if(t[i].area<smallest.area)
+58	    for(int i=1;i<n;i++)
+60	        if(t[i].area<smallest.area)
+58	    for(int i=1;i<n;i++)
+66	    return smallest;
+67	}
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem08.c:23
+23	    output(n,t,smallest);
+$1 = {base = -1.77600989e-14, altitude = 1.9197789e-43, area = 1}
+24	    return 0;
+25	}
+0x00007ff68e9113c1 in __tmainCRTStartup ()
+Single stepping until exit from function __tmainCRTStartup,
+which has no line number information.
+[Thread 832.0x2fd4 exited with code 0]
+[Inferior 1 (process 832) exited normally]

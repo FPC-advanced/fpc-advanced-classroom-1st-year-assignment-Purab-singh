@@ -1,0 +1,71 @@
++q
++b 10
+Breakpoint 1 at 0x140001607: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem10.c, line 10.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem10.exe 
+[New Thread 6728.0xba8]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem10.c:10
+10	    result=stringcompare(string1,string2);
++step
+stringcompare (string1=0x1bc83ff6e0 "hello", string2=0x1bc83ff670 "hello") at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem10.c:22
+22	    int i,result=0;
++n
+23	    for(i=0;string1[i]==string2[i];i++);
++n
+26	    result=string1[i]-string2[i];
++n
+27	    return result;
++print result
+$1 = -122
++print h-h
+No symbol "h" in current context.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem10.exe 
+[New Thread 12888.0x22dc]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem10.c:10
+10	    result=stringcompare(string1,string2);
++step
+stringcompare (string1=0xbdfd7ffb00 "hello", string2=0xbdfd7ffa90 "hellpo") at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem10.c:22
+22	    int i,result=0;
++n
+23	    for(i=0;string1[i]==string2[i];i++);
++n
+26	    result=string1[i]-string2[i];
++n
+27	    return result;
++print result
+$2 = -1
++n
+28	}
++n
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem10.c:11
+11	    output(string1,string2,result);
++n
+12	}
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem10.exe 
+[New Thread 12836.0x68c]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem10.c:10
+10	    result=stringcompare(string1,string2);
++step
+stringcompare (string1=0x3909dffae0 "hello", string2=0x3909dffa70 "hello") at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem10.c:22
+22	    int i,result=0;
++n
+23	    for(i=0;string1[i]==string2[i];i++);
++n
+26	    result=string1[i]-string2[i];
++n
+27	    return result;
++print result
+$3 = -122
++print string1[i]
+$4 = -122 '†'
++print string1[i]-string2[i]
+$5 = -122
++print result
+$6 = -122
++q

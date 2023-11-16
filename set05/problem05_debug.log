@@ -1,0 +1,638 @@
++b 10
+Breakpoint 1 at 0x1400015fc: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c, line 10.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.exe 
+[New Thread 5940.0x8c0]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:10
+10	    result=borga_X(x);
++step
+borga_X (x=5) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:24
+24	    float result=1,temp_result=1;
++n
+25	    int i,fact=1,temp=x;
++n
+26	    for(i=3;i<=100;i=i+2)
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++print fact
+$1 = 1
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+32	        temp=temp*x;
++print fact
+$2 = 6
++n
+34	        temp_result=temp_result +(temp/fact);
++n
+35	        if(temp_result>=0.000001)
++print temp_result
+$3 = 5
++n
+37	            result=temp_result;
++n
+26	    for(i=3;i<=100;i=i+2)
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++print fact
+$4 = 6
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++print fact
+$5 = 12
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.exe 
+[New Thread 8488.0x2c24]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:10
+10	    result=borga_X(x);
++n
+
+Thread 1 received signal SIGFPE, Arithmetic exception.
+0x00007ff6eace16cb in borga_X (x=5) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:34
+34	        temp_result=temp_result +(temp/fact);
++n
+
+Thread 1 received signal SIGFPE, Arithmetic exception.
+0x00007ff6eace16cb in borga_X (x=5) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:34
+34	        temp_result=temp_result +(temp/fact);
++n
+[Thread 8488.0x2c24 exited with code 3221225620]
+
+Program terminated with signal SIGFPE, Arithmetic exception.
+The program no longer exists.
++q
++b 20
+Breakpoint 1 at 0x14000165d: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c, line 20.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.exe 
+[New Thread 10648.0xde8]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, input (x=0) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:20
+20	}
++n
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:10
+10	    result=borga_X(x);
++step
+borga_X (x=5) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:24
+24	    float result=1,temp_result=1;
++n
+25	    int i,fact=1,temp=x;
++n
+26	    for(i=3;i<=100;i=i+2)
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+32	        temp=temp*x;
++print fact
+$1 = 6
++n
+34	        temp_result=temp_result +(temp/fact);
++print temp
+$2 = 25
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.exe 
+[New Thread 9112.0x2e50]
+
+Thread 1 hit Breakpoint 1, input (x=0) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:20
+20	}
++n
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:10
+10	    result=borga_X(x);
++ste[
+Ambiguous command "ste[": .
++step
+borga_X (x=5) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:24
+24	    float result=1,temp_result=1;
++n
+25	    int i,fact=1,temp=x;
++n
+26	    for(i=3;i<=100;i=i+2)
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++print fact
+$3 = 2
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++print fact
+$4 = 6
++n
+32	        temp=temp*x;
++n
+34	        temp_result=temp_result +(temp/fact);
++print te,p
+No symbol "te" in current context.
++print temp
+$5 = 25
++q
++b 21
+Breakpoint 1 at 0x14000166e: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c, line 24.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.exe 
+[New Thread 13924.0x29b0]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, borga_X (x=5) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:24
+24	    float result=1,temp_result=1;
++n
+25	    int i,fact=1,temp=1;
++n
+26	    for(i=3;i<=100000;i=i+2)
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+30	            fact=fact*j;
++n
+28	        for(int j=1;j<=i;j++)
++n
+32	        temp=temp*x;
++n
+35	        temp_result=temp/fact;
++n
+37	        if(temp_result<0.000001)
++print temp_result
+$1 = 0
++print temp/fact
+$2 = 0
++print fact
+$3 = 6
++print temp
+$4 = 5
++6/5
+Undefined command: "6".  Try "help".
++print 6/6
+$5 = 1
++print 6/6
+$6 = 1
++print 6/5
+$7 = 1
++print 5/6
+$8 = 0
++print 5%6
+$9 = 5
++print temp/fact
+$10 = 0
++temp
+Undefined command: "temp".  Try "help".
++print temp
+$11 = 5
++print fact
+$12 = 6
++print 5/6
+$13 = 0
++flaot m
+Undefined command: "flaot".  Try "help".
++q
++b 10
+Breakpoint 1 at 0x1400015fc: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c, line 10.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.exe 
+[New Thread 11996.0x2900]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:10
+10	    result=borga_X(x);
++step
+borga_X (x=5) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:24
+24	    float result=1,temp_result=1;
++n
+25	    float fact=1,temp=1;
++n
+27	    for(i=3;i<=100000;i=i+2)
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+33	        temp=temp*x;
++n
+36	        temp_result=temp/fact;
++n
+38	        if(temp_result<0.000001)
++n
+44	            result=result+temp_result;
++print result
+$1 = 1
++n
+45	            fact=1;
++n
+27	    for(i=3;i<=100000;i=i+2)
++print result
+$2 = 1.83333325
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+33	        temp=temp*x;
++n
+36	        temp_result=temp/fact;
++n
+38	        if(temp_result<0.000001)
++n
+44	            result=result+temp_result;
++print temp_resu;t
+Invalid character ';' in expression.
++print temp_result
+$3 = 0.208333328
++n
+45	            fact=1;
++n
+27	    for(i=3;i<=100000;i=i+2)
++print result
+$4 = 2.04166651
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+33	        temp=temp*x;
++n
+36	        temp_result=temp/fact;
++n
+38	        if(temp_result<0.000001)
++n
+44	            result=result+temp_result;
++n
+45	            fact=1;
++print result
+$5 = 2.066468
++n
+27	    for(i=3;i<=100000;i=i+2)
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+33	        temp=temp*x;
++n
+36	        temp_result=temp/fact;
++n
+38	        if(temp_result<0.000001)
++print temp_result
+$6 = 0.00172233244
++n
+44	            result=result+temp_result;
++print result
+$7 = 2.066468
++n
+45	            fact=1;
++n
+27	    for(i=3;i<=100000;i=i+2)
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+33	        temp=temp*x;
++n
+36	        temp_result=temp/fact;
++n
+38	        if(temp_result<0.000001)
++print temp_reuslt
+No symbol "temp_reuslt" in current context.
++print temp_result
+$8 = 7.82878415e-05
++n
+44	            result=result+temp_result;
++n
+45	            fact=1;
++n
+27	    for(i=3;i<=100000;i=i+2)
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+33	        temp=temp*x;
++n
+36	        temp_result=temp/fact;
++n
+38	        if(temp_result<0.000001)
++n
+44	            result=result+temp_result;
++print temp_result
+$9 = 2.50922562e-06
++print result
+$10 = 2.06826854
++n
+45	            fact=1;
++n
+27	    for(i=3;i<=100000;i=i+2)
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+31	            fact=fact*j;
++n
+29	        for(int j=1;j<=i;j++)
++n
+33	        temp=temp*x;
++n
+36	        temp_result=temp/fact;
++n
+38	        if(temp_result<0.000001)
++n
+40	           return result; 
++n
+53	}
++print temp_result
+$11 = 5.97434706e-08
++print result
+$12 = 2.06827116
++print result+temp_result
+$13 = 2.06827116
++print result +temp_result
+$14 = 2.06827116
++q
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.exe 
+[New Thread 6704.0xd1c]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 6704.0xd1c exited with code 0]
+[Inferior 1 (process 6704) exited normally]
++q

@@ -1,0 +1,92 @@
+Compilation started at 11/8/2023, 9:47:59 PM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c: In function 'input':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:16:9: error: 'x' redeclared as different kind of symbol
+   16 |     int x;
+      |         ^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:14:15: note: previous definition of 'x' with type 'int'
+   14 | int input(int x)
+      |           ~~~~^
+Compilation finished at 11/8/2023, 9:47:59 PM
+Compilation started at 11/8/2023, 9:48:21 PM
+Compilation finished at 11/8/2023, 9:48:22 PM
+Compilation started at 11/8/2023, 9:48:44 PM
+Compilation finished at 11/8/2023, 9:48:44 PM
+Compilation started at 11/8/2023, 9:50:30 PM
+Compilation finished at 11/8/2023, 9:50:30 PM
+Compilation started at 11/8/2023, 9:50:45 PM
+Compilation finished at 11/8/2023, 9:50:45 PM
+Compilation started at 11/8/2023, 9:51:53 PM
+Compilation finished at 11/8/2023, 9:51:53 PM
+Compilation started at 11/8/2023, 9:53:31 PM
+Compilation finished at 11/8/2023, 9:53:31 PM
+Compilation started at 11/8/2023, 9:53:53 PM
+Compilation finished at 11/8/2023, 9:53:54 PM
+Compilation started at 11/8/2023, 9:56:09 PM
+Compilation finished at 11/8/2023, 9:56:09 PM
+Compilation started at 11/8/2023, 9:56:14 PM
+Compilation finished at 11/8/2023, 9:56:14 PM
+Compilation started at 11/8/2023, 9:56:20 PM
+Compilation finished at 11/8/2023, 9:56:21 PM
+Compilation started at 11/8/2023, 9:56:24 PM
+Compilation finished at 11/8/2023, 9:56:24 PM
+Compilation started at 11/8/2023, 9:56:27 PM
+Compilation finished at 11/8/2023, 9:56:27 PM
+Compilation started at 11/8/2023, 9:56:39 PM
+Compilation finished at 11/8/2023, 9:56:39 PM
+Compilation started at 11/8/2023, 9:57:32 PM
+Compilation finished at 11/8/2023, 9:57:33 PM
+Compilation started at 11/8/2023, 10:00:32 PM
+Compilation finished at 11/8/2023, 10:00:32 PM
+Compilation started at 11/8/2023, 10:06:44 PM
+Compilation finished at 11/8/2023, 10:06:44 PM
+Compilation started at 11/8/2023, 10:07:22 PM
+Compilation finished at 11/8/2023, 10:07:22 PM
+Compilation started at 11/8/2023, 10:07:55 PM
+Compilation finished at 11/8/2023, 10:07:55 PM
+Compilation started at 11/8/2023, 10:08:10 PM
+Compilation finished at 11/8/2023, 10:08:10 PM
+Compilation started at 11/8/2023, 10:09:17 PM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c: In function 'borga_X':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem05.c:33:28: error: expected ';' before 'temp_result'
+   33 |         printf("%d\n",temp)
+      |                            ^
+      |                            ;
+   34 |         temp_result=temp_result +(temp/fact);
+      |         ~~~~~~~~~~~         
+Compilation finished at 11/8/2023, 10:09:17 PM
+Compilation started at 11/8/2023, 10:09:22 PM
+Compilation finished at 11/8/2023, 10:09:22 PM
+Compilation started at 11/8/2023, 10:10:07 PM
+Compilation finished at 11/8/2023, 10:10:07 PM
+Compilation started at 11/8/2023, 10:11:24 PM
+Compilation finished at 11/8/2023, 10:11:24 PM
+Compilation started at 11/8/2023, 10:20:03 PM
+Compilation finished at 11/8/2023, 10:20:04 PM
+Compilation started at 11/8/2023, 10:20:33 PM
+Compilation finished at 11/8/2023, 10:20:34 PM
+Compilation started at 11/8/2023, 10:23:22 PM
+Compilation finished at 11/8/2023, 10:23:22 PM
+Compilation started at 11/8/2023, 10:23:36 PM
+Compilation finished at 11/8/2023, 10:23:37 PM
+Compilation started at 11/8/2023, 10:24:19 PM
+Compilation finished at 11/8/2023, 10:24:20 PM
+Compilation started at 11/8/2023, 10:26:08 PM
+Compilation finished at 11/8/2023, 10:26:09 PM
+Compilation started at 11/8/2023, 10:26:14 PM
+Compilation finished at 11/8/2023, 10:26:15 PM
+Compilation started at 11/8/2023, 10:26:59 PM
+Compilation finished at 11/8/2023, 10:26:59 PM
+Compilation started at 11/8/2023, 10:27:23 PM
+Compilation finished at 11/8/2023, 10:27:24 PM
+Compilation started at 11/8/2023, 10:28:10 PM
+Compilation finished at 11/8/2023, 10:28:10 PM
+Compilation started at 11/8/2023, 10:28:27 PM
+Compilation finished at 11/8/2023, 10:28:27 PM
+Compilation started at 11/8/2023, 10:33:24 PM
+Compilation finished at 11/8/2023, 10:33:25 PM
+Compilation started at 11/8/2023, 10:34:52 PM
+Compilation finished at 11/8/2023, 10:34:53 PM
+Compilation started at 11/8/2023, 10:39:57 PM
+Compilation finished at 11/8/2023, 10:39:57 PM
+Compilation started at 11/9/2023, 10:28:31 PM
+Compilation finished at 11/9/2023, 10:28:31 PM

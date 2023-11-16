@@ -1,0 +1,39 @@
+Breakpoint 1 at 0x1400015ef: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem03.c, line 8.
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem03.exe 
+[New Thread 9408.0x1aa8]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem03.c:8
+8	    n=input_number();
+input_number () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem03.c:18
+18	    printf("enter the number");
+19	    scanf("%d",&x);
+20	    return x;
+21	}
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem03.c:9
+9	    result=is_composite(n);
+is_composite (n=2) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem03.c:24
+24	    int x=0,i;
+25	    for(i=1;i<=n;i++)
+27	        if(n%i==0)
+29	            x++;
+25	    for(i=1;i<=n;i++)
+27	        if(n%i==0)
+29	            x++;
+25	    for(i=1;i<=n;i++)
+32	    return x;
+34	}
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem03.c:10
+10	    output(n,result);
+$1 = 2
+11	    return 0;
+14	}
+0x00007ff61c3f13c1 in __tmainCRTStartup ()
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem03.exe 
+[New Thread 12444.0x1f40]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem03.c:8
+8	    n=input_number();
+9	    result=is_composite(n);
+10	    output(n,result);
+11	    return 0;

@@ -1,0 +1,116 @@
+Compilation started at 11/6/2023, 7:09:20 PM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:22:8: error: redefinition of 'struct _point'
+   22 | struct _point {
+      |        ^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:2:8: note: originally defined here
+    2 | struct _point {
+      |        ^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:27:23: error: conflicting types for 'Point'; have 'struct _point'
+   27 | typedef struct _point Point;
+      |                       ^~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:7:23: note: previous declaration of 'Point' with type 'Point' {aka 'struct _point'}
+    7 | typedef struct _point Point;
+      |                       ^~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:29:7: error: conflicting types for 'input'; have 'Point()' {aka 'struct _point()'}
+   29 | Point input()
+      |       ^~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:9:7: note: previous declaration of 'input' with type 'Point()' {aka 'struct _point()'}
+    9 | Point input();
+      |       ^~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:36:6: error: conflicting types for 'dist'; have 'void(Point,  Point,  float *)' {aka 'void(struct _point,  struct _point,  float *)'}
+   36 | void dist(Point a, Point b, float *res)
+      |      ^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:10:6: note: previous declaration of 'dist' with type 'void(Point,  Point,  float *)' {aka 'void(struct _point,  struct _point,  float *)'}
+   10 | void dist(Point a, Point b, float *res);
+      |      ^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:49:6: error: conflicting types for 'output'; have 'void(Point,  Point,  float)' {aka 'void(struct _point,  struct _point,  float)'}
+   49 | void output(Point a, Point b, float res)
+      |      ^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:11:6: note: previous declaration of 'output' with type 'void(Point,  Point,  float)' {aka 'void(struct _point,  struct _point,  float)'}
+   11 | void output(Point a, Point b, float res);
+      |      ^~~~~~
+Compilation finished at 11/6/2023, 7:09:21 PM
+Compilation started at 11/6/2023, 7:10:35 PM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:22:8: error: redefinition of 'struct _point'
+   22 | struct _point {
+      |        ^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:2:8: note: originally defined here
+    2 | struct _point {
+      |        ^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:27:23: error: conflicting types for 'Point'; have 'struct _point'
+   27 | typedef struct _point Point;
+      |                       ^~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:7:23: note: previous declaration of 'Point' with type 'Point' {aka 'struct _point'}
+    7 | typedef struct _point Point;
+      |                       ^~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:29:7: error: conflicting types for 'input'; have 'Point()' {aka 'struct _point()'}
+   29 | Point input()
+      |       ^~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:9:7: note: previous declaration of 'input' with type 'Point()' {aka 'struct _point()'}
+    9 | Point input();
+      |       ^~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:36:6: error: conflicting types for 'dist'; have 'void(Point,  Point,  float *)' {aka 'void(struct _point,  struct _point,  float *)'}
+   36 | void dist(Point a, Point b, float *res)
+      |      ^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:10:6: note: previous declaration of 'dist' with type 'void(Point,  Point,  float *)' {aka 'void(struct _point,  struct _point,  float *)'}
+   10 | void dist(Point a, Point b, float *res);
+      |      ^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:49:6: error: conflicting types for 'output'; have 'void(Point,  Point,  float)' {aka 'void(struct _point,  struct _point,  float)'}
+   49 | void output(Point a, Point b, float res)
+      |      ^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:11:6: note: previous declaration of 'output' with type 'void(Point,  Point,  float)' {aka 'void(struct _point,  struct _point,  float)'}
+   11 | void output(Point a, Point b, float res);
+      |      ^~~~~~
+Compilation finished at 11/6/2023, 7:10:35 PM
+Compilation started at 11/6/2023, 7:11:38 PM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:22:8: error: redefinition of 'struct _point'
+   22 | struct _point {
+      |        ^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:2:8: note: originally defined here
+    2 | struct _point {
+      |        ^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:27:23: error: conflicting types for 'Point'; have 'struct _point'
+   27 | typedef struct _point Point;
+      |                       ^~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:7:23: note: previous declaration of 'Point' with type 'Point' {aka 'struct _point'}
+    7 | typedef struct _point Point;
+      |                       ^~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:29:7: error: conflicting types for 'input'; have 'Point()' {aka 'struct _point()'}
+   29 | Point input()
+      |       ^~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:9:7: note: previous declaration of 'input' with type 'Point()' {aka 'struct _point()'}
+    9 | Point input();
+      |       ^~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:36:6: error: conflicting types for 'dist'; have 'void(Point,  Point,  float *)' {aka 'void(struct _point,  struct _point,  float *)'}
+   36 | void dist(Point a, Point b, float *res)
+      |      ^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:10:6: note: previous declaration of 'dist' with type 'void(Point,  Point,  float *)' {aka 'void(struct _point,  struct _point,  float *)'}
+   10 | void dist(Point a, Point b, float *res);
+      |      ^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:49:6: error: conflicting types for 'output'; have 'void(Point,  Point,  float)' {aka 'void(struct _point,  struct _point,  float)'}
+   49 | void output(Point a, Point b, float res)
+      |      ^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem01.c:11:6: note: previous declaration of 'output' with type 'void(Point,  Point,  float)' {aka 'void(struct _point,  struct _point,  float)'}
+   11 | void output(Point a, Point b, float res);
+      |      ^~~~~~
+Compilation finished at 11/6/2023, 7:11:38 PM
+Compilation started at 11/6/2023, 7:12:56 PM
+Compilation finished at 11/6/2023, 7:12:57 PM
+Compilation started at 11/6/2023, 7:13:21 PM
+Compilation finished at 11/6/2023, 7:13:21 PM
+Compilation started at 11/6/2023, 7:13:58 PM
+Compilation finished at 11/6/2023, 7:13:59 PM
+Compilation started at 11/6/2023, 7:14:49 PM
+Compilation finished at 11/6/2023, 7:14:49 PM
+Compilation started at 11/6/2023, 7:14:59 PM
+Compilation finished at 11/6/2023, 7:14:59 PM
+Compilation started at 11/6/2023, 7:15:31 PM
+Compilation finished at 11/6/2023, 7:15:32 PM
+Compilation started at 11/6/2023, 7:17:42 PM
+Compilation finished at 11/6/2023, 7:17:42 PM
+Compilation started at 11/6/2023, 7:20:14 PM
+Compilation finished at 11/6/2023, 7:20:15 PM
+Compilation started at 11/6/2023, 7:20:38 PM
+Compilation finished at 11/6/2023, 7:20:39 PM
+Compilation started at 11/6/2023, 7:21:11 PM
+Compilation finished at 11/6/2023, 7:21:11 PM

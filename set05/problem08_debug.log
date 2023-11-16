@@ -1,0 +1,314 @@
++b 8
+Breakpoint 1 at 0x1400015f8: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c, line 11.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.exe 
+[New Thread 1924.0xb2c]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, 0x00007ff6ae8e15f8 in main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:11
+11	{
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.exe 
+[New Thread 3176.0x2c60]
+
+Thread 1 hit Breakpoint 1, 0x00007ff6ae8e15f8 in main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:11
+11	{
++n
+13	    Camel c[n];
++n
+15	    input(n,c,&truck_weight);
++n
+16	    find_camel_weight(n,c);
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.exe 
+[New Thread 8276.0xa54]
+
+Thread 1 hit Breakpoint 1, 0x00007ff6ae8e15f8 in main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:11
+11	{
++n
+13	    Camel c[n];
++n
+15	    input(n,c,&truck_weight);
++n
+16	    find_camel_weight(n,c);
++3
+Undefined command: "3".  Try "help".
++n
+17	    total_weight=compute_total_weight(n,c,truck_weight);
++n
+
+Thread 1 received signal SIGSEGV, Segmentation fault.
+compute_total_weight (n=0, c=0xc9bffae0, truck_weight=-6.46208642e-11) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:64
+64	    total=truck_weight+c[n-1].weight;
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.exe 
+[New Thread 2884.0x90c]
+
+Thread 1 hit Breakpoint 1, 0x00007ff6ae8e15f8 in main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:11
+11	{
++n
+13	    Camel c[n];
++n
+15	    input(n,c,&truck_weight);
++n
+16	    find_camel_weight(n,c);
++step
+find_camel_weight (n=1065353216, c=0x3f8000003f800000) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:38
+38	    float pi=3.14;
++n
+39	    for(int i=0;i<n;i++)
++n
+41	        c[i].radius=c[i].radius*c[i].radius*c[i].radius;
++n
+
+Thread 1 received signal SIGSEGV, Segmentation fault.
+find_camel_weight (n=1065353216, c=0x3f8000003f800000) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:41
+41	        c[i].radius=c[i].radius*c[i].radius*c[i].radius;
++n
+
+Thread 1 received signal SIGSEGV, Segmentation fault.
+find_camel_weight (n=1065353216, c=0x3f8000003f800000) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:41
+41	        c[i].radius=c[i].radius*c[i].radius*c[i].radius;
++n
+[Thread 2884.0x90c exited with code 3221225477]
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
++n
+The program is not being run.
++n
+The program is not being run.
++n
+The program is not being run.
++q
++b 8
+Breakpoint 1 at 0x1400015f8: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c, line 11.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.exe 
+[New Thread 8616.0x1998]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, 0x00007ff6ae8e15f8 in main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:11
+11	{
++q
++b 17
+Breakpoint 1 at 0x140001675: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c, line 17.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.exe 
+[New Thread 8868.0xd0c]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 received signal SIGSEGV, Segmentation fault.
+find_camel_weight (n=1065353216, c=0x3f8000003f800000) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:41
+41	        c[i].radius=c[i].radius*c[i].radius*c[i].radius;
++step
+
+Thread 1 received signal SIGSEGV, Segmentation fault.
+find_camel_weight (n=1065353216, c=0x3f8000003f800000) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:41
+41	        c[i].radius=c[i].radius*c[i].radius*c[i].radius;
++n
+[Thread 8868.0xd0c exited with code 3221225477]
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
++n
+The program is not being run.
++cd "c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05"
+"c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05": Invalid argument.
++gcc -g "c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c" -o "c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.exe"
+Undefined command: "".  Try "help".
++cd "c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05"
+"c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05": Invalid argument.
++gcc -g "c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c" -o "c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.exe"
+Undefined command: "".  Try "help".
++q
++b 18
+No symbol table is loaded.  Use the "file" command.
++b 18
+No symbol table is loaded.  Use the "file" command.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.exe 
+[New Thread 10124.0x834]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 10124.0x834 exited with code 0]
+[Inferior 1 (process 10124) exited normally]
++b 19
+No symbol table is loaded.  Use the "file" command.
++q
++b 19
+No symbol table is loaded.  Use the "file" command.
++b17
+Undefined command: "b17".  Try "help".
++b 17
+No symbol table is loaded.  Use the "file" command.
++b info
+Function "info" not defined.
++b 17
+No symbol table is loaded.  Use the "file" command.
++q
++b 18
+No symbol table is loaded.  Use the "file" command.
++q
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.exe 
+[New Thread 9696.0x2db8]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 9696.0x2db8 exited with code 0]
+[Inferior 1 (process 9696) exited normally]
++l
+No symbol table is loaded.  Use the "file" command.
++q
++l
+1	#include<stdio.h>
+2	typedef struct _camel {
+3	    float radius, height, length, weight;
+4	} Camel;
+5	int input_n();
+6	void input(int n, Camel c[n], float *truck_weight);
+7	void find_camel_weight(int n, Camel c[n]);
+8	float compute_total_weight(int n, Camel c[n], float truck_weight);
+9	void output(float total_weight);
+10	int main()
++b 18
+Breakpoint 1 at 0x14000167d: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c, line 18.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.exe 
+[New Thread 7892.0x2284]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:18
+18	    total_weight=compute_total_weight(n,c,truck_weight);
++step
+compute_total_weight (n=3, c=0x6372dffcb0, truck_weight=2000) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:71
+71	    total=truck_weight+c[n-1].weight;
++print c[n-1].weight
+$1 = 0
++b 16
+Breakpoint 2 at 0x7ff7105f165a: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c, line 16.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.exe 
+[New Thread 1228.0x2f84]
+
+Thread 1 hit Breakpoint 2, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:16
+16	    input(n,c,&truck_weight);
++n
+17	    find_camel_weight(n,c);
++step
+find_camel_weight (n=3, c=0xca9bbffb90) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:45
+45	    float pi=3.14;
++n
+46	    for(int i=0;i<n;i++)
++n
+48	        c[i].radius=c[i].radius*c[i].radius*c[i].radius;
++n
+49	        c[i].weight=c[i].height*c[i].length;
++n
+50	        float x=c[i].weight;
++n
+51	        while(x*x-c[i].weight>0.00001)
++n
+55	        c[i].weight=x;
++n
+56	        c[i].weight=pi*c[i].radius*c[i].weight;
++n
+46	    for(int i=0;i<n;i++)
++print c[i].weight
+$2 = 2.07672432e-42
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.exe 
+[New Thread 7864.0x2644]
+
+Thread 1 hit Breakpoint 2, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:16
+16	    input(n,c,&truck_weight);
++n
+17	    find_camel_weight(n,c);
++step
+find_camel_weight (n=3, c=0x6fe39ffda0) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:45
+45	    float pi=3.14;
++n
+46	    for(int i=0;i<n;i++)
++n
+48	        c[i].radius=c[i].radius*c[i].radius*c[i].radius;
++n
+49	        c[i].weight=c[i].height*c[i].length;
++print c[i].radius
+$3 = 1
++n
+50	        float x=c[i].weight;
++print c[i].weight
+$4 = 8.0294402e-43
++print c[i]
+$5 = {radius = 1, height = 8.0294402e-43, length = 1, weight = 8.0294402e-43}
++1
+Undefined command: "1".  Try "help".
++q
++l
+No symbol table is loaded.  Use the "file" command.
++l
+No symbol table is loaded.  Use the "file" command.
++l
+No symbol table is loaded.  Use the "file" command.
++q
++b 18
+Breakpoint 1 at 0x14000167d: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c, line 18.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.exe 
+[New Thread 1612.0x24f0]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:18
+18	    total_weight=compute_total_weight(n,c,truck_weight);
++step
+compute_total_weight (n=3, c=0xac51bff9c0, truck_weight=2000) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:71
+71	    total=truck_weight+c[n-1].weight;
++print c[n-1].weight
+$1 = 3.1400001
++print c.weight
+$2 = 9.42000008
++print c.weight+truck_weight
+$3 = 2009.42004
++q
++b 18
+Breakpoint 1 at 0x14000167d: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c, line 18.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.exe 
+[New Thread 1384.0x102c]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:18
+18	    total_weight=compute_total_weight(n,c,truck_weight);
++step
+compute_total_weight (n=3, c=0x92c0fffd80, truck_weight=2000) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:71
+71	    total=truck_weight+c[n-1].weight;
++print c.weight
+$1 = 3.1400001
++print c[n-1].weight
+$2 = 3.1400001
++r
+Program not restarted.
++q
++b 18
+Breakpoint 1 at 0x14000167d: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c, line 18.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.exe 
+[New Thread 240.0x30c]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:18
+18	    total_weight=compute_total_weight(n,c,truck_weight);
++step
+compute_total_weight (n=3, c=0x534c9ff8a0, truck_weight=2000) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem08.c:71
+71	    total=truck_weight+c[n-1].weight;
++print c.weight
+$1 = 9.42000008
++print c[n-1]
+$2 = {radius = 1, height = 1, length = 1, weight = 3.1400001}
++print c->.weight
+A syntax error in expression, near `.weight'.
++print c->weight
+$3 = 9.42000008
++q

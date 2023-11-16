@@ -1,0 +1,31 @@
+
+
+  
+
+  Breakpoint 1 at 0x140001672: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem09.c, line 23.
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem09.exe 
+[New Thread 5344.0x243c]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, square_root (n=3) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem09.c:23
+23	    float x,small=0.00001;
+24	    x=n;
+25	    while((x*x-n)>small)
+27	        x=0.5*(x+n/x);
+$1 = 3
+25	    while((x*x-n)>small)
+$2 = 2
+27	        x=0.5*(x+n/x);
+$3 = 2
+25	    while((x*x-n)>small)
+$4 = 1.75
+$5 = 3
+27	        x=0.5*(x+n/x);
+$6 = 1.75
+25	    while((x*x-n)>small)
+$7 = 1.73214293
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem09.exe 
+[New Thread 4192.0x310]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 4192.0x310 exited with code 0]
+[Inferior 1 (process 4192) exited normally]

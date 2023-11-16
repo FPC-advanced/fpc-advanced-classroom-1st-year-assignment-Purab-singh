@@ -1,0 +1,7 @@
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem02.c: In function 'main':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem02.c:7:32: error: expected ';' before 'return'
+    7 |     printf("the sum is %d",sum)
+      |                                ^
+      |                                ;
+    8 |     return 0;
+      |     ~~~~~~                      

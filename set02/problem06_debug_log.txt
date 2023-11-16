@@ -1,0 +1,78 @@
+1	#include<stdio.h>
+2	void input_string(char *a);
+3	void str_reverse(char *a, char *rev_str);
+4	void output(char *a, char *rev_str);
+5	int main()
+6	{
+7	    char a[100],rev_str[100],reverse_a[100];
+8	    input_string(a);
+9	    str_reverse(a,rev_str);
+10	    output(a,rev_str);
+Breakpoint 1 at 0x140001606: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c, line 9.
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.exe 
+[New Thread 9132.0x3a9c]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:9
+9	    str_reverse(a,rev_str);
+str_reverse (a=0x64035ff9c0 "helloworldhello", rev_str=0x64035ff950 "\001") at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:22
+22	    for(i=1;a[i]!='\0';i++);
+23	    end=i-1;
+24	    for(i=0,j=0;a[i]!='\0';j++,i++)
+26	        rev_str[j]=a[end];
+28	        end=end-1;
+24	    for(i=0,j=0;a[i]!='\0';j++,i++)
+26	        rev_str[j]=a[end];
+28	        end=end-1;
+24	    for(i=0,j=0;a[i]!='\0';j++,i++)
+26	        rev_str[j]=a[end];
+28	        end=end-1;
+24	    for(i=0,j=0;a[i]!='\0';j++,i++)
+26	        rev_str[j]=a[end];
+28	        end=end-1;
+24	    for(i=0,j=0;a[i]!='\0';j++,i++)
+26	        rev_str[j]=a[end];
+28	        end=end-1;
+24	    for(i=0,j=0;a[i]!='\0';j++,i++)
+26	        rev_str[j]=a[end];
+28	        end=end-1;
+24	    for(i=0,j=0;a[i]!='\0';j++,i++)
+26	        rev_str[j]=a[end];
+28	        end=end-1;
+24	    for(i=0,j=0;a[i]!='\0';j++,i++)
+26	        rev_str[j]=a[end];
+28	        end=end-1;
+24	    for(i=0,j=0;a[i]!='\0';j++,i++)
+26	        rev_str[j]=a[end];
+28	        end=end-1;
+24	    for(i=0,j=0;a[i]!='\0';j++,i++)
+26	        rev_str[j]=a[end];
+28	        end=end-1;
+24	    for(i=0,j=0;a[i]!='\0';j++,i++)
+26	        rev_str[j]=a[end];
+28	        end=end-1;
+24	    for(i=0,j=0;a[i]!='\0';j++,i++)
+26	        rev_str[j]=a[end];
+28	        end=end-1;
+24	    for(i=0,j=0;a[i]!='\0';j++,i++)
+26	        rev_str[j]=a[end];
+28	        end=end-1;
+24	    for(i=0,j=0;a[i]!='\0';j++,i++)
+26	        rev_str[j]=a[end];
+28	        end=end-1;
+24	    for(i=0,j=0;a[i]!='\0';j++,i++)
+26	        rev_str[j]=a[end];
+28	        end=end-1;
+24	    for(i=0,j=0;a[i]!='\0';j++,i++)
+30	    rev_str[i]='\0';
+$1 = 0x64035ff950 "ollehdlrowolleh"
+33	}
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:10
+10	    output(a,rev_str);
+11	    return 0;
+12	}
+0x00007ff6fa6913c1 in __tmainCRTStartup ()
+Single stepping until exit from function __tmainCRTStartup,
+which has no line number information.
+[Thread 9132.0x3a9c exited with code 0]
+[Inferior 1 (process 9132) exited normally]

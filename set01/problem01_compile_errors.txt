@@ -1,0 +1,7 @@
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem01.c: In function 'main':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem01.c:5:26: error: expected ';' before 'return'
+    5 |     printf("Purab singh")
+      |                          ^
+      |                          ;
+    6 |         return 0;
+      |         ~~~~~~            

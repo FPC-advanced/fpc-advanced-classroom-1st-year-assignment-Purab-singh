@@ -1,0 +1,102 @@
+warning: Source file is more recent than executable.
+1	#include<stdio.h>
+2	int input();
+3	int find_gcd(int a, int b);
+4	void output(int a, int b, int gcd);
+5	int main()
+6	{
+7	    int a,b,gcd;
+8	    a=input();
+9	    b=input();
+10	    gcd=find_gcd(a,b);
+Breakpoint 1 at 0x1400015ff: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem05.c, line 10.
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem05.exe 
+[New Thread 10928.0x1fa0]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem05.c:10
+10	    gcd=find_gcd(a,b);
+find_gcd (a=3, b=5) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem05.c:23
+23	    int small=a,gcd,result=0;
+24	    if(a>b)
+28	    for(gcd=1;gcd<=small;gcd++)
+$1 = 3
+30	        if(a%gcd==0&&b%gcd==0)
+
+Thread 1 received signal SIGFPE, Arithmetic exception.
+0x00007ff721f71699 in find_gcd (a=3, b=5) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem05.c:30
+30	        if(a%gcd==0&&b%gcd==0)
+$2 = 0
+
+Thread 1 received signal SIGFPE, Arithmetic exception.
+0x00007ff721f71699 in find_gcd (a=3, b=5) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem05.c:30
+30	        if(a%gcd==0&&b%gcd==0)
+$3 = 0
+$4 = 0
+[Thread 10928.0x1fa0 exited with code 3221225620]
+
+Program terminated with signal SIGFPE, Arithmetic exception.
+The program no longer exists.
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem05.exe 
+[New Thread 3348.0x39b0]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem05.c:10
+10	    gcd=find_gcd(a,b);
+
+Thread 1 received signal SIGFPE, Arithmetic exception.
+0x00007ff721f71699 in find_gcd (a=4, b=6) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem05.c:30
+30	        if(a%gcd==0&&b%gcd==0)
+
+Thread 1 received signal SIGFPE, Arithmetic exception.
+0x00007ff721f71699 in find_gcd (a=4, b=6) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem05.c:30
+30	        if(a%gcd==0&&b%gcd==0)
+[Thread 3348.0x39b0 exited with code 3221225620]
+
+Program terminated with signal SIGFPE, Arithmetic exception.
+The program no longer exists.
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem05.exe 
+[New Thread 5696.0x1db4]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem05.c:10
+10	    gcd=find_gcd(a,b);
+
+Thread 1 received signal SIGFPE, Arithmetic exception.
+0x00007ff721f71699 in find_gcd (a=3, b=4) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem05.c:30
+30	        if(a%gcd==0&&b%gcd==0)
+
+Thread 1 received signal SIGFPE, Arithmetic exception.
+0x00007ff721f71699 in find_gcd (a=3, b=4) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem05.c:30
+30	        if(a%gcd==0&&b%gcd==0)
+[Thread 5696.0x28a0 exited with code 3221225620]
+
+Program terminated with signal SIGFPE, Arithmetic exception.
+The program no longer exists.
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem05.exe 
+[New Thread 4888.0x9e0]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem05.c:10
+10	    gcd=find_gcd(a,b);
+find_gcd (a=2, b=4) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem05.c:23
+23	    int small=a,gcd,result=0;
+24	    if(a>b)
+28	    for(gcd=1;gcd<=small;gcd++)
+30	        if(a%gcd==0&&b%gcd==0)
+
+Thread 1 received signal SIGFPE, Arithmetic exception.
+0x00007ff721f71699 in find_gcd (a=2, b=4) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem05.c:30
+30	        if(a%gcd==0&&b%gcd==0)
+$5 = 0
+
+Thread 1 received signal SIGFPE, Arithmetic exception.
+0x00007ff721f71699 in find_gcd (a=2, b=4) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem05.c:30
+30	        if(a%gcd==0&&b%gcd==0)
+$6 = 0
+[Thread 4888.0x9e0 exited with code 3221225620]
+
+Program terminated with signal SIGFPE, Arithmetic exception.
+The program no longer exists.
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem05.exe 
+[New Thread 7776.0x23f0]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 7776.0x23f0 exited with code 0]
+[Inferior 1 (process 7776) exited normally]

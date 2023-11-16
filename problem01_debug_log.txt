@@ -1,0 +1,40 @@
+Breakpoint 1 at 0x14000159e: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem01.c, line 5.
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem01.exe 
+[New Thread 11212.0x23e4]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem01.c:5
+5	    printf("Purab singh");
+Continuing.
+[Thread 11212.0x23e4 exited with code 0]
+[Inferior 1 (process 11212) exited normally]
+Breakpoint 1 at 0x14000159e: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem01.c, line 5.
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem01.exe 
+[New Thread 12464.0x1c60]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem01.c:5
+5	    printf("Purab singh");
+Continuing.
+[Thread 12464.0x1c60 exited with code 0]
+[Inferior 1 (process 12464) exited normally]
+Breakpoint 1 at 0x14000159e: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem01.c, line 5.
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem01.exe 
+[New Thread 920.0x2dfc]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem01.c:5
+5	    printf("Purab singh");
+Continuing.
+[Thread 920.0x2dfc exited with code 0]
+[Inferior 1 (process 920) exited normally]
+Breakpoint 1 at 0x14000159e: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem01.c, line 5.
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem01.exe 
+[New Thread 10096.0x2964]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem01.c:5
+5	    printf("Purab singh");
+Continuing.
+[Thread 10096.0x2964 exited with code 0]
+[Inferior 1 (process 10096) exited normally]

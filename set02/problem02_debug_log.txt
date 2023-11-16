@@ -1,0 +1,48 @@
+
+
+  1	#include<stdio.h>
+2	int input_side();
+3	int check_scalene(int a, int b, int c);
+4	void output(int a, int b, int c, int isscalene);
+5	int main()
+6	{
+7	    int a,b,c,isscalene;
+8	    a=input_side();
+9	    b=input_side();
+10	    c=input_side();
+Breakpoint 1 at 0x1400015ef: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem02.c, line 8.
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem02.exe 
+[New Thread 5704.0x1788]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem02.c:8
+8	    a=input_side();
+input_side () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem02.c:18
+18	    printf("enter the sides");
+19	    scanf("%d",&x);
+20	    return x;
+21	}
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem02.c:9
+9	    b=input_side();
+10	    c=input_side();
+11	    isscalene=check_scalene(a,b,c);
+check_scalene (a=2, b=4, c=5) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem02.c:25
+25	    if(a==b||b==c||c==a)
+$1 = 2
+31	        scalene =2;
+33	    return scalene;
+34	}
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem02.c:12
+12	    output(a,b,c,isscalene);
+output (a=2, b=4, c=5, isscalene=2) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem02.c:37
+37	    if (isscalene==1)
+44	        printf("the triangle is scalene");
+46	}
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem02.c:13
+13	    return 0;
+14	}
+0x00007ff774e813c1 in __tmainCRTStartup ()
+Single stepping until exit from function __tmainCRTStartup,
+which has no line number information.
+[Thread 5704.0x1788 exited with code 0]
+[Inferior 1 (process 5704) exited normally]

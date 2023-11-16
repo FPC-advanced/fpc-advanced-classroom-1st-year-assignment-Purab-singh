@@ -1,0 +1,63 @@
+
+
+  1	#include<stdio.h>
+2	void input(float *base, float *height);
+3	void find_area(float base , float height, float *area);
+4	void output(float base, float height, float area);
+5	int main()
+6	{
+7	    float height,base,area;
+8	    input(&base,&height);
+9	    find_area(base,height,&area);
+10	    output(base,height,area);
+Breakpoint 1 at 0x1400015ef: file C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem01.c, line 8.
+1	#include<stdio.h>
+2	void input(float *base, float *height);
+3	void find_area(float base , float height, float *area);
+4	void output(float base, float height, float area);
+5	int main()
+6	{
+7	    float height,base,area;
+8	    input(&base,&height);
+9	    find_area(base,height,&area);
+10	    output(base,height,area);
+11	    return 0;
+12	
+13	
+14	}
+15	void input(float *base, float *height)
+16	{
+17	    printf("enter the base and height of the triangle \n ");
+18	    scanf("%f %f",base,height);
+19	}
+20	void find_area(float base , float height, float *area)
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem01.exe 
+[New Thread 8688.0x33c8]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 8688.0x33c8 exited with code 0]
+[Inferior 1 (process 8688) exited normally]
+Breakpoint 1 at 0x7ff6a79515ef: file C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem01.c, line 8.
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem01.exe 
+[New Thread 5704.0x958]
+
+Thread 1 hit Breakpoint 1, main () at C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem01.c:8
+8	    input(&base,&height);
+input (base=0xe40bbff948, height=0xe40bbff94c) at C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem01.c:17
+17	    printf("enter the base and height of the triangle \n ");
+18	    scanf("%f %f",base,height);
+19	}
+main () at C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem01.c:9
+9	    find_area(base,height,&area);
+find_area (base=2, height=4, area=0xe40bbff944) at C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem01.c:22
+22	    *area = 0.5 *( base * height);
+$1 = 2
+23	}
+main () at C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem01.c:10
+10	    output(base,height,area);
+11	    return 0;
+14	}
+0x00007ff6a79513c1 in __tmainCRTStartup ()
+Single stepping until exit from function __tmainCRTStartup,
+which has no line number information.
+[Thread 5704.0x958 exited with code 0]
+[Inferior 1 (process 5704) exited normally]

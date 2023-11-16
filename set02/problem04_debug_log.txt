@@ -1,0 +1,135 @@
+1	#include<stdio.h>
+2	int input_array_size();
+3	void input_array(int n, int a[n]);
+4	int sum_composite_numbers(int n, int a[n]);
+5	void output(int sum);
+6	int main()
+7	{
+8	    int n;
+9	    n=input_array_size();
+10	    int a[n],sum;
+11	    input_array(n,a);
+12	    sum=sum_composite_numbers(n,a);
+13	    output( sum);
+14	    return 0;
+15	}
+16	int input_array_size()
+17	{
+18	    int x;
+19	    printf("enter the array size");
+20	    scanf("%d",&x);
+Breakpoint 1 at 0x1400015fe: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem04.c, line 9.
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem04.exe 
+[New Thread 6252.0x72c]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem04.c:9
+9	    n=input_array_size();
+input_array_size () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem04.c:19
+19	    printf("enter the array size");
+20	    scanf("%d",&x);
+21	    return x;
+22	}
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem04.c:10
+10	    int a[n],sum;
+11	    input_array(n,a);
+input_array (n=3, a=0x106bbffc30) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem04.c:26
+26	    for(i=0;i<n;i++)
+28	        printf("enter the numbers");
+29	        scanf("%d",&a[i]);
+26	    for(i=0;i<n;i++)
+28	        printf("enter the numbers");
+Undefined command: "4".  Try "help".
+29	        scanf("%d",&a[i]);
+26	    for(i=0;i<n;i++)
+28	        printf("enter the numbers");
+Undefined command: "5".  Try "help".
+29	        scanf("%d",&a[i]);
+26	    for(i=0;i<n;i++)
+31	}
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem04.c:12
+12	    sum=sum_composite_numbers(n,a);
+sum_composite_numbers (n=3, a=0x106bbffc30) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem04.c:34
+34	    int sum=0,j,i,x=0;
+35	    for(i=0;i<n;i++)
+37	        for(j=1;j<a[i];j++)
+39	            if(a[i]%j==0)
+41	                x++;
+37	        for(j=1;j<a[i];j++)
+39	            if(a[i]%j==0)
+37	        for(j=1;j<a[i];j++)
+45	        if(x>2)
+49	        x=0;
+35	    for(i=0;i<n;i++)
+37	        for(j=1;j<a[i];j++)
+39	            if(a[i]%j==0)
+41	                x++;
+37	        for(j=1;j<a[i];j++)
+39	            if(a[i]%j==0)
+41	                x++;
+37	        for(j=1;j<a[i];j++)
+39	            if(a[i]%j==0)
+41	                x++;
+37	        for(j=1;j<a[i];j++)
+39	            if(a[i]%j==0)
+37	        for(j=1;j<a[i];j++)
+Undefined command: "nn".  Try "help".
+39	            if(a[i]%j==0)
+37	        for(j=1;j<a[i];j++)
+45	        if(x>2)
+47	            sum=sum+a[i];
+49	        x=0;
+35	    for(i=0;i<n;i++)
+37	        for(j=1;j<a[i];j++)
+39	            if(a[i]%j==0)
+41	                x++;
+37	        for(j=1;j<a[i];j++)
+45	        if(x>2)
+49	        x=0;
+35	    for(i=0;i<n;i++)
+52	    return sum;
+55	}
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem04.c:13
+13	    output( sum);
+$1 = 6
+14	    return 0;
+15	}
+0x00007ff604ce13c1 in __tmainCRTStartup ()
+Single stepping until exit from function __tmainCRTStartup,
+which has no line number information.
+[Thread 6252.0x72c exited with code 0]
+[Inferior 1 (process 6252) exited normally]
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem04.exe 
+[New Thread 7984.0x29f8]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem04.c:9
+9	    n=input_array_size();
+10	    int a[n],sum;
+11	    input_array(n,a);
+12	    sum=sum_composite_numbers(n,a);
+13	    output( sum);
+14	    return 0;
+15	}
+$2 = 0
+0x00007ff604ce13c1 in __tmainCRTStartup ()
+Single stepping until exit from function __tmainCRTStartup,
+which has no line number information.
+[Thread 7984.0x29f8 exited with code 0]
+[Inferior 1 (process 7984) exited normally]
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem04.exe 
+[New Thread 10320.0x38ec]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem04.c:9
+9	    n=input_array_size();
+10	    int a[n],sum;
+11	    input_array(n,a);
+12	    sum=sum_composite_numbers(n,a);
+13	    output( sum);
+14	    return 0;
+$3 = 34
+15	}
+0x00007ff604ce13c1 in __tmainCRTStartup ()
+Single stepping until exit from function __tmainCRTStartup,
+which has no line number information.
+[Thread 10320.0x38ec exited with code 0]
+[Inferior 1 (process 10320) exited normally]

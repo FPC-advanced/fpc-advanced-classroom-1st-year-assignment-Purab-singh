@@ -1,0 +1,11 @@
+Compilation started at 10/30/2023, 10:24:03 AM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem01.c: In function 'output':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem01.c:52:7: warning: type of 'num1' defaults to 'int' [-Wimplicit-int]
+   52 |  void output(num1,den1,num2,den2,res_num,res_den)
+      |       ^~~~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem01.c:52:7: warning: type of 'den1' defaults to 'int' [-Wimplicit-int]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem01.c:52:7: warning: type of 'num2' defaults to 'int' [-Wimplicit-int]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem01.c:52:7: warning: type of 'den2' defaults to 'int' [-Wimplicit-int]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem01.c:52:7: warning: type of 'res_num' defaults to 'int' [-Wimplicit-int]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem01.c:52:7: warning: type of 'res_den' defaults to 'int' [-Wimplicit-int]
+Compilation finished at 10/30/2023, 10:24:04 AM

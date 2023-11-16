@@ -1,0 +1,134 @@
++l
+1	#include<stdio.h>
+2	void input_n_and_r(int *n, int *r);
+3	int nCr(int n, int r);
+4	void output(int n, int r, int result);
+5	int main()
+6	{
+7	    int n,r,result;
+8	    input_n_and_r(&n,&r);
+9	    result=nCr(n,r);
+10	    output(n,r,result);
++b 9
+Breakpoint 1 at 0x1400015ff: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem03.c, line 9.
++r
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem03.exe 
+[New Thread 10628.0x2e7c]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem03.c:9
+9	    result=nCr(n,r);
++step
+nCr (n=6, r=3) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem03.c:20
+20	    int result,i,nfact=1,rfact=1,nifact=1;
++n
+21	    for(i=1;i<=n;i++)
++n
+23	        nfact=nfact*i;
++n
+21	    for(i=1;i<=n;i++)
++print nfaact
+No symbol "nfaact" in current context.
++print nfact
+$1 = 1
++n
+23	        nfact=nfact*i;
++n
+21	    for(i=1;i<=n;i++)
++print nfact
+$2 = 2
++n
+23	        nfact=nfact*i;
++n
+21	    for(i=1;i<=n;i++)
++print nfact
+$3 = 6
++n
+23	        nfact=nfact*i;
++n
+21	    for(i=1;i<=n;i++)
++print nfact
+$4 = 24
++n
+23	        nfact=nfact*i;
++print nfact
+$5 = 24
++n
+21	    for(i=1;i<=n;i++)
++print nfact
+$6 = 120
++n
+23	        nfact=nfact*i;
++n
+21	    for(i=1;i<=n;i++)
++print nfact
+$7 = 720
++n
+25	    for(i=1;i<=r;i++)
++n
+27	        rfact=rfact*i;
++n
+25	    for(i=1;i<=r;i++)
++print rfact
+$8 = 1
++n
+27	        rfact=rfact*i;
++n
+25	    for(i=1;i<=r;i++)
++n
+27	        rfact=rfact*i;
++n
+25	    for(i=1;i<=r;i++)
++print rfact
+$9 = 6
++n
+29	    for(i=1;i<=n-r;i++)
++n
+31	        nifact=nifact*i;
++n
+29	    for(i=1;i<=n-r;i++)
++n
+31	        nifact=nifact*i;
++n
+29	    for(i=1;i<=n-r;i++)
++print nifact
+$10 = 2
++n
+31	        nifact=nifact*i;
++n
+29	    for(i=1;i<=n-r;i++)
++print nifact
+$11 = 6
++n
+33	    result=(nfact/rfact)*(nifact);
++print nfact
+$12 = 720
++print rfact
+$13 = 6
++print nfact/rfact
+$14 = 120
++print 120*nifact
+$15 = 720
++nfact%rfact
+Undefined command: "nfact".  Try "help".
++print nfact%rfact
+$16 = 0
++print result
+$17 = 130
++n
+34	    return result;
++n
+36	}
++print result
+$18 = 720
++r
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem03.exe 
+[New Thread 2596.0x1728]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem03.c:9
+9	    result=nCr(n,r);
++n
+10	    output(n,r,result);
++n
+11	    return 0;
++q

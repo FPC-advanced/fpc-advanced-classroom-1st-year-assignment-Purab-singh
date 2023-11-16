@@ -1,0 +1,29 @@
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem04.c: In function 'main':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem04.c:10:12: warning: passing argument 1 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   10 |     output(&a,&b,&sum);
+      |            ^~
+      |            |
+      |            int *
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem04.c:4:17: note: expected 'int' but argument is of type 'int *'
+    4 | void output(int a, int b, int sum);
+      |             ~~~~^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem04.c:10:15: warning: passing argument 2 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   10 |     output(&a,&b,&sum);
+      |               ^~
+      |               |
+      |               int *
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem04.c:4:24: note: expected 'int' but argument is of type 'int *'
+    4 | void output(int a, int b, int sum);
+      |                    ~~~~^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem04.c:10:18: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+   10 |     output(&a,&b,&sum);
+      |                  ^~~~
+      |                  |
+      |                  int *
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem04.c:4:31: note: expected 'int' but argument is of type 'int *'
+    4 | void output(int a, int b, int sum);
+      |                           ~~~~^~~
+Compilation started at 11/10/2023, 1:08:11 PM
+Compilation finished at 11/10/2023, 1:08:12 PM
+Compilation started at 11/10/2023, 1:08:37 PM
+Compilation finished at 11/10/2023, 1:08:37 PM

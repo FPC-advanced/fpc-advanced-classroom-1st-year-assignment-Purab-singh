@@ -1,0 +1,196 @@
+Compilation started at 11/7/2023, 11:50:25 AM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c: In function 'main':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:8:11: warning: passing argument 1 of 'input' from incompatible pointer type [-Wincompatible-pointer-types]
+    8 |     input(&name);
+      |           ^~~~~
+      |           |
+      |           char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:2:18: note: expected 'char *' but argument is of type 'char (*)[100]'
+    2 | void input(char *name);
+      |            ~~~~~~^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:10:23: warning: passing argument 1 of 'has_nice_name' from incompatible pointer type [-Wincompatible-pointer-types]
+   10 |     res=has_nice_name(&name);
+      |                       ^~~~~
+      |                       |
+      |                       char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:3:25: note: expected 'char *' but argument is of type 'char (*)[100]'
+    3 | int has_nice_name(char *name);
+      |                   ~~~~~~^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c: In function 'has_nice_name':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:21:21: error: 'name' redeclared as different kind of symbol
+   21 |     int i=0,v=0,c=0,name;
+      |                     ^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:19:25: note: previous definition of 'name' with type 'char *'
+   19 | int has_nice_name(char *name)
+      |                   ~~~~~~^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:22:17: error: subscripted value is neither array nor pointer nor vector
+   22 |     for(i=0;name[i]!='\0';i++)
+      |                 ^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:24:16: error: subscripted value is neither array nor pointer nor vector
+   24 |         if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u")
+      |                ^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:24:30: error: subscripted value is neither array nor pointer nor vector
+   24 |         if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u")
+      |                              ^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:24:44: error: subscripted value is neither array nor pointer nor vector
+   24 |         if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u")
+      |                                            ^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:24:58: error: subscripted value is neither array nor pointer nor vector
+   24 |         if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u")
+      |                                                          ^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:24:72: error: subscripted value is neither array nor pointer nor vector
+   24 |         if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u")
+      |                                                                        ^
+Compilation finished at 11/7/2023, 11:50:25 AM
+Compilation started at 11/7/2023, 11:50:57 AM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c: In function 'main':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:8:11: warning: passing argument 1 of 'input' from incompatible pointer type [-Wincompatible-pointer-types]
+    8 |     input(&name);
+      |           ^~~~~
+      |           |
+      |           char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:2:18: note: expected 'char *' but argument is of type 'char (*)[100]'
+    2 | void input(char *name);
+      |            ~~~~~~^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:10:23: warning: passing argument 1 of 'has_nice_name' from incompatible pointer type [-Wincompatible-pointer-types]
+   10 |     res=has_nice_name(&name);
+      |                       ^~~~~
+      |                       |
+      |                       char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:3:25: note: expected 'char *' but argument is of type 'char (*)[100]'
+    3 | int has_nice_name(char *name);
+      |                   ~~~~~~^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c: In function 'has_nice_name':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:21:21: error: 'name' redeclared as different kind of symbol
+   21 |     int i=0,v=0,c=0,name;
+      |                     ^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:19:25: note: previous definition of 'name' with type 'char *'
+   19 | int has_nice_name(char *name)
+      |                   ~~~~~~^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:22:17: error: subscripted value is neither array nor pointer nor vector
+   22 |     for(i=0;name[i]!='\0';i++)
+      |                 ^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:24:16: error: subscripted value is neither array nor pointer nor vector
+   24 |         if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u")
+      |                ^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:24:30: error: subscripted value is neither array nor pointer nor vector
+   24 |         if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u")
+      |                              ^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:24:44: error: subscripted value is neither array nor pointer nor vector
+   24 |         if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u")
+      |                                            ^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:24:58: error: subscripted value is neither array nor pointer nor vector
+   24 |         if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u")
+      |                                                          ^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:24:72: error: subscripted value is neither array nor pointer nor vector
+   24 |         if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u")
+      |                                                                        ^
+Compilation finished at 11/7/2023, 11:50:57 AM
+Compilation started at 11/7/2023, 11:52:22 AM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c: In function 'main':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:8:11: warning: passing argument 1 of 'input' from incompatible pointer type [-Wincompatible-pointer-types]
+    8 |     input(&name);
+      |           ^~~~~
+      |           |
+      |           char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:2:18: note: expected 'char *' but argument is of type 'char (*)[100]'
+    2 | void input(char *name);
+      |            ~~~~~~^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:10:23: warning: passing argument 1 of 'has_nice_name' from incompatible pointer type [-Wincompatible-pointer-types]
+   10 |     res=has_nice_name(&name);
+      |                       ^~~~~
+      |                       |
+      |                       char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:3:25: note: expected 'char *' but argument is of type 'char (*)[100]'
+    3 | int has_nice_name(char *name);
+      |                   ~~~~~~^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c: In function 'has_nice_name':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:24:19: warning: comparison between pointer and integer
+   24 |         if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u")
+      |                   ^~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:24:33: warning: comparison between pointer and integer
+   24 |         if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u")
+      |                                 ^~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:24:47: warning: comparison between pointer and integer
+   24 |         if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u")
+      |                                               ^~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:24:61: warning: comparison between pointer and integer
+   24 |         if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u")
+      |                                                             ^~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:24:75: warning: comparison between pointer and integer
+   24 |         if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u")
+      |                                                                           ^~
+Compilation finished at 11/7/2023, 11:52:23 AM
+Compilation started at 11/7/2023, 11:53:00 AM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c: In function 'main':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:8:11: warning: passing argument 1 of 'input' from incompatible pointer type [-Wincompatible-pointer-types]
+    8 |     input(&name);
+      |           ^~~~~
+      |           |
+      |           char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:2:18: note: expected 'char *' but argument is of type 'char (*)[100]'
+    2 | void input(char *name);
+      |            ~~~~~~^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:10:23: warning: passing argument 1 of 'has_nice_name' from incompatible pointer type [-Wincompatible-pointer-types]
+   10 |     res=has_nice_name(&name);
+      |                       ^~~~~
+      |                       |
+      |                       char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:3:25: note: expected 'char *' but argument is of type 'char (*)[100]'
+    3 | int has_nice_name(char *name);
+      |                   ~~~~~~^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c: In function 'has_nice_name':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:24:19: warning: comparison between pointer and integer
+   24 |         if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u")
+      |                   ^~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:24:33: warning: comparison between pointer and integer
+   24 |         if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u")
+      |                                 ^~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:24:47: warning: comparison between pointer and integer
+   24 |         if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u")
+      |                                               ^~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:24:61: warning: comparison between pointer and integer
+   24 |         if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u")
+      |                                                             ^~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:24:75: warning: comparison between pointer and integer
+   24 |         if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u")
+      |                                                                           ^~
+Compilation finished at 11/7/2023, 11:53:01 AM
+Compilation started at 11/7/2023, 11:54:28 AM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c: In function 'main':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:8:11: warning: passing argument 1 of 'input' from incompatible pointer type [-Wincompatible-pointer-types]
+    8 |     input(&name);
+      |           ^~~~~
+      |           |
+      |           char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:2:18: note: expected 'char *' but argument is of type 'char (*)[100]'
+    2 | void input(char *name);
+      |            ~~~~~~^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:10:23: warning: passing argument 1 of 'has_nice_name' from incompatible pointer type [-Wincompatible-pointer-types]
+   10 |     res=has_nice_name(&name);
+      |                       ^~~~~
+      |                       |
+      |                       char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:3:25: note: expected 'char *' but argument is of type 'char (*)[100]'
+    3 | int has_nice_name(char *name);
+      |                   ~~~~~~^~~~
+Compilation finished at 11/7/2023, 11:54:28 AM
+Compilation started at 11/7/2023, 11:55:07 AM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c: In function 'main':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:8:11: warning: passing argument 1 of 'input' from incompatible pointer type [-Wincompatible-pointer-types]
+    8 |     input(&name);
+      |           ^~~~~
+      |           |
+      |           char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:2:18: note: expected 'char *' but argument is of type 'char (*)[100]'
+    2 | void input(char *name);
+      |            ~~~~~~^~~~
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:10:23: warning: passing argument 1 of 'has_nice_name' from incompatible pointer type [-Wincompatible-pointer-types]
+   10 |     res=has_nice_name(&name);
+      |                       ^~~~~
+      |                       |
+      |                       char (*)[100]
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem07.c:3:25: note: expected 'char *' but argument is of type 'char (*)[100]'
+    3 | int has_nice_name(char *name);
+      |                   ~~~~~~^~~~
+Compilation finished at 11/7/2023, 11:55:07 AM

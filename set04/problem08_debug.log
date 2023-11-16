@@ -1,0 +1,756 @@
++n
+The program is not being run.
++r
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.exe 
+[New Thread 9756.0x620]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 9756.0x620 exited with code 0]
+[Inferior 1 (process 9756) exited normally]
++b 20
+Breakpoint 1 at 0x7ff65d2e1668: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c, line 20.
++r
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.exe 
+[New Thread 5084.0x2c94]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:20
+20	    sum=add_n_fractions(n,f);
++step
+add_n_fractions (n=3, f=0x161f3ffad0) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:42
+42	    for(int i=1;i<n;i++)
++n
+44	        f[i].num=(f[i-1].num*f[i].den) +(f[i].num*f[i-1].den);
++n
+45	        f[i].den=f[i].den*f[i-1].den;
++print f[i].num
+$1 = -1233136376
++n
+42	    for(int i=1;i<n;i++)
++print f[1].num
+$2 = -1233136376
++print f[1].den
+$3 = 65528
++n
+44	        f[i].num=(f[i-1].num*f[i].den) +(f[i].num*f[i-1].den);
++n
+45	        f[i].den=f[i].den*f[i-1].den;
++n
+42	    for(int i=1;i<n;i++)
++n
+47	    int i=n-1;
++n
+48	    sum.den=f[i].den;
++n
+49	    sum.num=f[i].num;
++print sum
+$4 = {num = 524286676, den = 0}
++q
++r
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.exe 
+[New Thread 8188.0x57c]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 received signal SIGSEGV, Segmentation fault.
+0x00007ff6add258c5 in __mingw_sformat (s=<optimized out>, s@entry=0x3321dfebe0, format=<optimized out>, argp=<optimized out>) at ../../src/mingw-w64-crt/stdio/mingw_vfscanf.c:1122
+1122	../../src/mingw-w64-crt/stdio/mingw_vfscanf.c: No such file or directory.
++3
+Undefined command: "3".  Try "help".
++l
+1117	in ../../src/mingw-w64-crt/stdio/mingw_vfscanf.c
++l
+1117	in ../../src/mingw-w64-crt/stdio/mingw_vfscanf.c
++l
+1117	in ../../src/mingw-w64-crt/stdio/mingw_vfscanf.c
++q
++l
+warning: Source file is more recent than executable.
+1	#include<stdio.h>
+2	typedef struct fraction
+3	{
+4	    int num, den;
+5	} Fraction;
+6	
+7	int input_n();
+8	Fraction input_fraction();
+9	void input_n_fractions(int n, Fraction f[n]);
+10	int find_gcd(int a, int b);
++b 20
+Breakpoint 1 at 0x140001668: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c, line 20.
++r
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.exe 
+[New Thread 9516.0x2dec]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 received signal SIGSEGV, Segmentation fault.
+0x00007ff6add258c5 in __mingw_sformat (s=<optimized out>, s@entry=0x2e043fe610, format=<optimized out>, argp=<optimized out>) at ../../src/mingw-w64-crt/stdio/mingw_vfscanf.c:1122
+1122	../../src/mingw-w64-crt/stdio/mingw_vfscanf.c: No such file or directory.
++3
+Undefined command: "3".  Try "help".
++r
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.exe 
+[New Thread 3800.0x2cf8]
+
+Thread 1 received signal SIGSEGV, Segmentation fault.
+0x00007ff6add258c5 in __mingw_sformat (s=<optimized out>, s@entry=0x11b9fecd0, format=<optimized out>, argp=<optimized out>) at ../../src/mingw-w64-crt/stdio/mingw_vfscanf.c:1122
+1122	in ../../src/mingw-w64-crt/stdio/mingw_vfscanf.c
++n
+
+Thread 1 received signal SIGSEGV, Segmentation fault.
+0x00007ff6add258c5 in __mingw_sformat (s=<optimized out>, s@entry=0x11b9fecd0, format=<optimized out>, argp=<optimized out>) at ../../src/mingw-w64-crt/stdio/mingw_vfscanf.c:1122
+1122	in ../../src/mingw-w64-crt/stdio/mingw_vfscanf.c
++n
+[Thread 3800.0x2ecc exited with code 3221225477]
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
++r
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.exe 
+[New Thread 6972.0x22ec]
+
+Thread 1 received signal SIGSEGV, Segmentation fault.
+0x00007ff6add258c5 in __mingw_sformat (s=<optimized out>, s@entry=0x5e4f3fe8a0, format=<optimized out>, argp=<optimized out>) at ../../src/mingw-w64-crt/stdio/mingw_vfscanf.c:1122
+1122	in ../../src/mingw-w64-crt/stdio/mingw_vfscanf.c
++gcc -g "c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c" -o "c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++q
++b 20
+Breakpoint 1 at 0x140001668: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c, line 20.
++r
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.exe 
+[New Thread 5740.0x2dc8]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:20
+20	    sum=add_n_fractions(n,f);
++step
+add_n_fractions (n=3, f=0x52271ff850) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:42
+42	    for(int i=1;i<n;i++)
++print f[1].num
+$1 = -616584570
++print f[0].den
+$2 = 4
++f[0]
+A syntax error in expression, near `[0]'.
++print f[0]
+$3 = {num = 1, den = 4}
++q
++b 20
+Breakpoint 1 at 0x140001668: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c, line 20.
++r
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.exe 
+[New Thread 1364.0x1ea0]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:20
+20	    sum=add_n_fractions(n,f);
++step
+add_n_fractions (n=2, f=0x202dbffad0) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:43
+43	    for( i=1;i<n;i++)
++print f[0]
+$1 = {num = 1, den = 4}
++print f[1]
+$2 = {num = 0, den = 0}
++f[-1]
+A syntax error in expression, near `[-1]'.
++print f
+$3 = (Fraction *) 0x202dbffad0
++print f[i]
+$4 = {num = -1003808496, den = 32759}
++print f[0]
+$5 = {num = 1, den = 4}
++print f[1]
+$6 = {num = 0, den = 0}
++q
++l
+1	#include<stdio.h>
+2	typedef struct fraction
+3	{
+4	    int num, den;
+5	} Fraction;
+6	
+7	int input_n();
+8	Fraction input_fraction();
+9	void input_n_fractions(int n, Fraction f[n]);
+10	int find_gcd(int a, int b);
++b 31
+Breakpoint 1 at 0x1400016e9: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c, line 34.
++r
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.exe 
+[New Thread 10656.0x2ff8]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, input_n_fractions (n=2, f=0xf5df3ff750) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:34
+34	    for( i=0;i<n;i++)
++step
+36	        printf("enter the fractions:");
++n
+37	        scanf("%d %d",&f[i].num,&f[i].den);
++n
+34	    for( i=0;i<n;i++)
++print f[0]
+$1 = {num = 1, den = 2}
++n
+36	        printf("enter the fractions:");
++n
+37	        scanf("%d %d",&f[i].num,&f[i].den);
++n
+34	    for( i=0;i<n;i++)
++print f[1]
+$2 = {num = 1, den = 4}
++n
+39	}
++n
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:20
+20	    sum=add_n_fractions(n,f);
++step
+add_n_fractions (n=2, f=0xf5df3ff750) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:44
+44	    for( i=1;i<n;i++)
++print f[0]
+$3 = {num = 1, den = 2}
++print f[1]
+$4 = {num = 1, den = 4}
++n
+46	        f[i].num=(f[i-1].num*f[i].den) +(f[i].num*f[i-1].den);
++n
+47	        f[i].den=f[i].den*f[i-1].den;
++print f[i]
+$5 = {num = 6, den = 4}
++n
+44	    for( i=1;i<n;i++)
++n
+49	    sum.den=f[i].den;
++n
+50	    sum.num=f[i].num;
++print sum
+$6 = {num = 245, den = 32758}
++print f[1]
+$7 = {num = 6, den = 8}
++print f[0]
+$8 = {num = 1, den = 2}
++print su,
+No symbol "su" in current context.
++print sum
+$9 = {num = 245, den = 32758}
++n
+51	    int largest=sum.num,smallest=sum.den;
++n
+52	    if(sum.den>sum.num)
++n
+57	    int gcd=1;
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++q
++b 20
+Breakpoint 1 at 0x140001668: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c, line 20.
++r
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.exe 
+[New Thread 4156.0x2024]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:20
+warning: Source file is more recent than executable.
+20	    sum=add_n_fractions(n,f);
++print f[0]
+$1 = {num = 1, den = 2}
++print f[1]
+$2 = {num = 1, den = 3}
++print f[2]
+$3 = {num = 1, den = 4}
++n
+21	    output(n,f,sum);
++print sum
+$4 = {num = 0, den = 0}
++print f[2]
+$5 = {num = 26, den = 24}
++n
+22	    return 0;
++print f[2]
+$6 = {num = 26, den = 24}
++print su,
+No symbol "su" in current context.
++print sum
+$7 = {num = 0, den = 0}
++n
+23	}
++n
+0x00007ff6018113c1 in __tmainCRTStartup ()
++print sum.num
+No symbol "sum" in current context.
++q
+Not confirmed.
++r
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.exe 
+[New Thread 7612.0x888]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:20
+20	    sum=add_n_fractions(n,f);
++step
+add_n_fractions (n=2, f=0xf16f9ffb20) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:44
+44	    for( i=1;i<n;i++)
++n
+46	        f[i].num=(f[i-1].num*f[i].den) +(f[i].num*f[i-1].den);
++n
+47	        f[i].den=f[i].den*f[i-1].den;
++n
+44	    for( i=1;i<n;i++)
++n
+49	    sum.den=f[i].den;
++n
+50	    sum.num=f[i].num;
++n
+51	    int largest=f[i].num,smallest=f[i].den;
++n
+52	    if(f[i].den>f[i].num)
++n
+57	    int gcd=1;
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++print gcd
+$8 = 1
++n
+62	            gcd=x;
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+62	            gcd=x;
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++print gcd
+$9 = 2
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++nn
+Undefined command: "nn".  Try "help".
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++nn
+Undefined command: "nn".  Try "help".
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++print gcd
+$10 = 2
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++r
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.exe 
+[New Thread 5916.0x1250]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:20
+20	    sum=add_n_fractions(n,f);
++step
+add_n_fractions (n=2, f=0x3f8e3ff970) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:44
+44	    for( i=1;i<n;i++)
++n
+46	        f[i].num=(f[i-1].num*f[i].den) +(f[i].num*f[i-1].den);
++n
+47	        f[i].den=f[i].den*f[i-1].den;
++n
+44	    for( i=1;i<n;i++)
++print f[1]
+$11 = {num = 6, den = 8}
++n
+49	    sum.den=f[i].den;
++n
+50	    sum.num=f[i].num;
++print sum
+$12 = {num = 63, den = 32758}
++n
+51	    int largest=f[i].num,smallest=f[i].den;
++n
+52	    if(f[i].den>f[i].num)
++n
+57	    int gcd=1;
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+62	            gcd=x;
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+62	            gcd=x;
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+60	        if(smallest%x==0&&largest%x==0)
++break
+Breakpoint 2 at 0x7ff6018118a9: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c, line 60.
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+
+Thread 1 hit Breakpoint 2, add_n_fractions (n=2, f=0x3f8e3ff970) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:60
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+
+Thread 1 hit Breakpoint 2, add_n_fractions (n=2, f=0x3f8e3ff970) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:60
+60	        if(smallest%x==0&&largest%x==0)
++n
+58	    for(int x=1;x<=smallest;x++)
++n
+
+Thread 1 hit Breakpoint 2, add_n_fractions (n=2, f=0x3f8e3ff970) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:60
+60	        if(smallest%x==0&&largest%x==0)
++r
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.exe 
+[New Thread 2456.0x2924]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:20
+20	    sum=add_n_fractions(n,f);
++n
+
+Thread 1 hit Breakpoint 2, add_n_fractions (n=2, f=0x86e9dffbe0) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.c:60
+60	        if(smallest%x==0&&largest%x==0)
++n
+62	            gcd=x;
++q
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.
++r
+Starting program: C:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem08.exe 
+[New Thread 5816.0x280c]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 5816.0x280c exited with code 0]
+[Inferior 1 (process 5816) exited normally]
++print sum
+No symbol "sum" in current context.
++q

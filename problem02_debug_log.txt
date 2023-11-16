@@ -1,0 +1,20 @@
+Breakpoint 1 at 0x14000159e: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem02.c, line 5.
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem02.exe 
+[New Thread 7352.0x1720]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem02.c:5
+5	    int a=2,b=3,sum=0;
+Continuing.
+[Thread 7352.0x1720 exited with code 0]
+[Inferior 1 (process 7352) exited normally]
+Breakpoint 1 at 0x14000159e: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem02.c, line 5.
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem02.exe 
+[New Thread 9592.0x3248]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem02.c:5
+5	    int a=2,b=3,sum=0;
+Continuing.
+[Thread 9592.0x3248 exited with code 0]
+[Inferior 1 (process 9592) exited normally]
