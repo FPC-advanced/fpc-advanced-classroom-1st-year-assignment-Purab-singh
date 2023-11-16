@@ -1,0 +1,50 @@
++l
+warning: Source file is more recent than executable.
+1	#include<stdio.h>
+2	void input(int *a, int *b, int *c);
+3	void compare(int a, int b, int c, int *largest);
+4	void output(int a, int b, int c, int largest);
+5	int main()
+6	{
+7	    int a,b,c,largest;
+8	    input(&a,&b,&c);
+9	    compare(a,b,c,&largest);
+10	    output(a,b,c,largest);
++l
+11	    return 0;
+12	
+13	}
+14	void input(int *a, int *b, int *c)
+15	{
+16	    printf("enter the numbers");
+17	    scanf("%d %d %d",a,b,c);
+18	
+19	}
+20	void compare(int a, int b, int c, int *largest)
++b main
+Breakpoint 1 at 0x1400015ef: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem06.c, line 8.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem06.exe 
+[New Thread 11832.0x25b8]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem06.c:8
+8	    input(&a,&b,&c);
++n
+9	    compare(a,b,c,&largest);
++n
+10	    output(a,b,c,largest);
++n
+11	    return 0;
++n
+13	}
++n
+0x00007ff6afcd13c1 in __tmainCRTStartup ()
++n
+Single stepping until exit from function __tmainCRTStartup,
+which has no line number information.
+[Thread 11832.0x25b8 exited with code 0]
+[Inferior 1 (process 11832) exited normally]
++n
+The program is not being run.
++q
