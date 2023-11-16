@@ -1,0 +1,18 @@
++l
+1	#include<stdio.h>
+2	void input_triangle(float *x1, float *y1, float *x2, float *y2, float *x3, float *y3);
+3	int is_triangle(float x1, float y1, float x2, float y2,float x3, float y3);
+4	void output(float x1, float y1, float x2, float y2,float x3, float y3, int result);
+5	int main()
+6	{
+7	    float x1,x2,x3,y1,y2,y3;
+8	    int result;
+9	    input_triangle(&x1,&y1,&x2,&y2,&x3,&y3);
+10	    result=is_triangle(x1,y1,x2,y2,x3,y3);
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set03\problem02.exe 
+[New Thread 4724.0x1834]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 4724.0x1834 exited with code 0]
+[Inferior 1 (process 4724) exited normally]
++q

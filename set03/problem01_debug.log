@@ -1,0 +1,18 @@
++l
+1	#include<stdio.h>
+2	void input(float *x1, float *y1, float *x2, float *y2);
+3	float find_distance(float x1, float y1, float x2, float y2);
+4	void output(float x1, float y1, float x2, float y2, float distance);
+5	int main()
+6	{
+7	    float x1,x2,y1,y2,distance;
+8	    input(&x1,&y1,&x2,&y2);
+9	    distance=find_distance(x1,y1,x2,y2);
+10	    output(x1,y1,x2,y2,distance);
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set03\problem01.exe 
+[New Thread 7320.0x357c]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 7320.0x357c exited with code 0]
+[Inferior 1 (process 7320) exited normally]
++q
