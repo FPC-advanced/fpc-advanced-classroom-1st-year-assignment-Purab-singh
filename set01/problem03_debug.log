@@ -1,0 +1,40 @@
++l
+1	#include<stdio.h>
+2	int input();
+3	int add(int a, int b);
+4	void output(int a, int b, int sum);
+5	int main()
+6	{
+7	    int a,b,sum;
+8	    a=input();
+9	    b=input();
+10	    sum=add(a,b);
++b main
+Breakpoint 1 at 0x1400015ef: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem03.c, line 8.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem03.exe 
+[New Thread 7996.0x5b0]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem03.c:8
+8	    a=input();
++n
+9	    b=input();
++n
+10	    sum=add(a,b);
++n
+11	    output(a,b,sum);
++n
+12	    return 0;
++n
+13	}
++n
+0x00007ff765d013c1 in __tmainCRTStartup ()
++n
+Single stepping until exit from function __tmainCRTStartup,
+which has no line number information.
+[Thread 7996.0x5b0 exited with code 0]
+[Inferior 1 (process 7996) exited normally]
++1
+Undefined command: "1".  Try "help".
++q
