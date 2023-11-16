@@ -1,0 +1,18 @@
++l
+5	
+6	typedef struct line {
+7	    Point p1, p2;
+8	    float distance;
+9	} Line;
+10	
+11	Point input_point();
+12	Line input_line();
+13	void find_length(Line *l);
+14	void output(Line l);
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set03\problem07.exe 
+[New Thread 10052.0x2f9c]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 10052.0x2f9c exited with code 0]
+[Inferior 1 (process 10052) exited normally]
++q
