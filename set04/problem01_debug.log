@@ -1,0 +1,19 @@
++l
+warning: Source file is more recent than executable.
+1	#include<stdio.h>
+2	void input(int *num1, int *den1, int *num2, int *den2);
+3	void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den);
+4	void output(int num1, int den1, int num2, int den2, int res_num, int res_den);
+5	int main()
+6	{
+7	    int num1,den1,num2,den2,res_num,res_den;
+8	    input(&num1,&den1,&num2,&den2);
+9	    add(num1,den1,num2,den2,&res_num,&res_den);
+10	    output(num1,den1,num2,den2,res_num,res_den);
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem01.exe 
+[New Thread 8144.0x3538]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 8144.0x3538 exited with code 0]
+[Inferior 1 (process 8144) exited normally]
++q
