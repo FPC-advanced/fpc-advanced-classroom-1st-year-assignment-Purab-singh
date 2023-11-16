@@ -1,0 +1,40 @@
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem02.exe 
+[New Thread 8840.0x32cc]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 8840.0x32cc exited with code 0]
+[Inferior 1 (process 8840) exited normally]
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem02.exe 
+[New Thread 12316.0x348]
+[Thread 12316.0x348 exited with code 0]
+[Inferior 1 (process 12316) exited normally]
++l
+warning: Source file is more recent than executable.
+1	#include<stdio.h>
+2	typedef struct {
+3	    float num, den;
+4	} Fraction;
+5	void input(Fraction *f1,Fraction *f2,Fraction *f3);
+6	void compare(Fraction f1,Fraction f2, Fraction f3 ,int *result_num ,int *result_den);
+7	void output(Fraction f1,Fraction f2,Fraction f3,int result_num ,int result_den) ;
+8	int main()
+9	{
+10	    Fraction f1,f2,f3;
++l
+11	    int result_num,result_den;
+12	    input(&f1,&f2,&f3);
+13	    compare(f1,f2,f3,&result_num,&result_den);
+14	    output(f1,f2,f3,result_num ,result_den);
+15	    return 0;
+16	
+17	}
+18	void input(Fraction *f1,Fraction *f2,Fraction *f3)
+19	{
+20	    printf("enter fraction 1");
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem02.exe 
+[New Thread 7236.0x2820]
+[Thread 7236.0x2820 exited with code 0]
+[Inferior 1 (process 7236) exited normally]
++q
