@@ -1,0 +1,19 @@
++l
+warning: Source file is more recent than executable.
+1	#include<stdio.h>
+2	struct _complex {
+3		float real,imaginary;
+4	};
+5	typedef struct _complex Complex;
+6	
+7	int get_n();
+8	Complex input_complex();
+9	void input_n_complex(int n, Complex c[n]);
+10	Complex add(Complex a, Complex b  );
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem12.exe 
+[New Thread 7900.0x2bc4]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 7900.0x2bc4 exited with code 0]
+[Inferior 1 (process 7900) exited normally]
++q
