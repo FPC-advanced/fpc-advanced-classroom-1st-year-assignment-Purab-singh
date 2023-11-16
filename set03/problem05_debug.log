@@ -1,0 +1,18 @@
++l
+1	#include<stdio.h>
+2	
+3	int input_array_size();
+4	void int_array(int n, int a[n]);
+5	int erotosthenes_sieve(int n, int a[n]);
+6	void output(int n, int a[n],int sum);
+7	int main()
+8	{
+9	    int n,sum=0;
+10	    n=input_array_size();
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set03\problem05.exe 
+[New Thread 5200.0x37fc]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 5200.0x37fc exited with code 0]
+[Inferior 1 (process 5200) exited normally]
++q
