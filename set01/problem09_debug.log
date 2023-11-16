@@ -1,0 +1,24 @@
++l
+warning: Source file is more recent than executable.
+1	#include<stdio.h>
+2	float input();
+3	float square_root(float n);
+4	void output(float n, float sqrroot);
+5	int main()
+6	{
+7	    float n,sqrroot;
+8	    n=input();
+9	    sqrroot=square_root(n);
+10	    output(n,sqrroot);
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem09.exe 
+[New Thread 13632.0x1c38]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 13632.0x1c38 exited with code 0]
+[Inferior 1 (process 13632) exited normally]
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem09.exe 
+[New Thread 6336.0xcb0]
+[Thread 6336.0xcb0 exited with code 0]
+[Inferior 1 (process 6336) exited normally]
++q
