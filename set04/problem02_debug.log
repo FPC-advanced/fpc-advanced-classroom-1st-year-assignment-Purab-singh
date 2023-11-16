@@ -38,3 +38,10 @@ Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-clas
 [Thread 7236.0x2820 exited with code 0]
 [Inferior 1 (process 7236) exited normally]
 +q
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set04\problem02.exe 
+[New Thread 9604.0xea0]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 9604.0xea0 exited with code 0]
+[Inferior 1 (process 9604) exited normally]
++q
