@@ -1,0 +1,25 @@
++l
+warning: Source file is more recent than executable.
+1	// 1. Write a C program to print your name.
+2	#include<stdio.h>
+3	int main()
+4	{
+5	    printf("Purab singh");
+6	    return 0;
+7	}
++b main
+Breakpoint 1 at 0x14000159e: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem01.c, line 5.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem01.exe 
+[New Thread 13444.0x26c0]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem01.c:5
+5	    printf("Purab singh");
++c
+Continuing.
+[Thread 13444.0x26c0 exited with code 0]
+[Inferior 1 (process 13444) exited normally]
++c
+The program is not being run.
++q

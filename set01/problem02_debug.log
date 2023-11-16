@@ -1,0 +1,38 @@
++l
+1	//2. Write a C program to add two numbers.
+2	#include<stdio.h>
+3	int main()
+4	{
+5	    int a=2,b=3,sum=0;
+6	    sum=a+b;
+7	    printf("the sum is %d",sum);
+8	    return 0;
+9	
+10	}
++b main
+Breakpoint 1 at 0x14000159e: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem02.c, line 5.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem02.exe 
+[New Thread 1172.0x730]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem02.c:5
+5	    int a=2,b=3,sum=0;
++n
+6	    sum=a+b;
++n
+7	    printf("the sum is %d",sum);
++n
+8	    return 0;
++n
+10	}
++n
+0x00007ff78cf013c1 in __tmainCRTStartup ()
++n
+Single stepping until exit from function __tmainCRTStartup,
+which has no line number information.
+[Thread 1172.0x730 exited with code 0]
+[Inferior 1 (process 1172) exited normally]
++n
+The program is not being run.
++q
