@@ -14,7 +14,7 @@ int main()
 void input(int *a,int *b)
 {
     printf("enter the values of the two numbers");
-    scanf("%ddonkey%d",a,b);
+    scanf("%d %d",a,b);
 
 }
 void add(int a,int b,int *sum)

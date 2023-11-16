@@ -1,0 +1,61 @@
++l
+1	#include<stdio.h>
+2	void input(int *a, int *b);
+3	void add(int a, int b, int *sum);
+4	void output(int a, int b, int sum);
+5	int main()
+6	{
+7	    int a,b,sum=0;
+8	    input(&a,&b);
+9	    add(a,b,&sum);
+10	    output(a,b,sum);
++b 20
+Breakpoint 1 at 0x140001686: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem04.c, line 22.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem04.exe 
+[New Thread 288.0x13fc]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, add (a=1, b=16, sum=0x6e0e5ff6a4) at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem04.c:22
+22	    *sum=a+b;
++n
+23	}
++n
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem04.c:10
+10	    output(a,b,sum);
++n
+11	    return 0;
++n
+13	}
++n
+0x00007ff7e45513c1 in __tmainCRTStartup ()
++n
+Single stepping until exit from function __tmainCRTStartup,
+which has no line number information.
+[Thread 288.0x13fc exited with code 0]
+[Inferior 1 (process 288) exited normally]
++q
++l
+warning: Source file is more recent than executable.
+1	#include<stdio.h>
+2	void input(int *a, int *b);
+3	void add(int a, int b, int *sum);
+4	void output(int a, int b, int sum);
+5	int main()
+6	{
+7	    int a,b,sum=0;
+8	    input(&a,&b);
+9	    add(a,b,&sum);
+10	    output(a,b,sum);
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem04.exe 
+[New Thread 10668.0x2fb4]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 10668.0x2fb4 exited with code 0]
+[Inferior 1 (process 10668) exited normally]
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem04.exe 
+[New Thread 14124.0x1690]
+[Thread 14124.0x1690 exited with code 0]
+[Inferior 1 (process 14124) exited normally]
++q
