@@ -1,0 +1,19 @@
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05\problem04.exe 
+[New Thread 12832.0x35a4]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 12832.0x35a4 exited with code 0]
+[Inferior 1 (process 12832) exited normally]
++cd "c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05"
+"c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set05": Invalid argument.
++gdb ./problem06
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem06_debug.log
++qset logging enabled on
+Undefined command: "qset".  Try "help".
++set logging on
+Already logging to problem04_debug.log.
++set trace-commands on
++q
