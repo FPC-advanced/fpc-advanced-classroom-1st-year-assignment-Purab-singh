@@ -1,0 +1,18 @@
++l
+1	#include<stdio.h>
+2	int input();
+3	int find_fibo(int n);
+4	void output(int n, int fibo);
+5	int main()
+6	{
+7	    int n,fibo;
+8	    n=input();
+9	    fibo=find_fibo(n);
+10	    output(n,fibo);
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set03\problem04.exe 
+[New Thread 11196.0x2430]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 11196.0x2430 exited with code 0]
+[Inferior 1 (process 11196) exited normally]
++q
