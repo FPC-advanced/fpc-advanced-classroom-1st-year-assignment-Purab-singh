@@ -1,0 +1,18 @@
++l
+1	#include<stdio.h>
+2	int input_n();
+3	int sum_n_nos(int n);
+4	void output(int n, int sum);
+5	int main()
+6	{
+7	    int n,sum;
+8	    n=input_n();
+9	    sum=sum_n_nos(n);
+10	    output(n,sum);
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem07.exe 
+[New Thread 1836.0x153c]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 1836.0x153c exited with code 0]
+[Inferior 1 (process 1836) exited normally]
++q

@@ -1,0 +1,18 @@
++l
+1	#include<stdio.h>
+2	int input_array_size();
+3	void input_array(int n, int a[n]);
+4	int sum_n_array(int n, int a[n]);
+5	void output(int n, int a[n],int sum);
+6	int main()
+7	{
+8	    int n;
+9	    n=input_array_size();
+10	    int a[n],sum;
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set01\problem08.exe 
+[New Thread 10324.0x2790]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 10324.0x2790 exited with code 0]
+[Inferior 1 (process 10324) exited normally]
++q
