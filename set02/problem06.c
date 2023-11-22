@@ -18,22 +18,31 @@ void input_string(char *a)
 void str_reverse(char *a)
 {
     int i,end,j;
-    
+    char temp[100];
     for(i=1;a[i]!='\0';i++);
     j=i*2;
     for(i=0;a[i]!='\0';i++)
     {
+        // a[j+1]=' ';
         a[j]=a[i];
         j=j-1;
-        
-        
+
         
     }
-
-    
-    
-
+    j=j+1;
+    for(i=0;a[i]!='\0';i++)
+    {
+        a[i]=a[j];
+        j++;
+    }
+        
+        
 }
+    
+    
+    
+
+
 void output(char *a)
 {
     printf("the reversed string is %s",a);

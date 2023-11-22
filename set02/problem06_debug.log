@@ -1,0 +1,625 @@
++b 9
+Breakpoint 1 at 0x140001606: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c, line 9.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.exe 
+[New Thread 9684.0x2a5c]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:9
+9	    str_reverse(a);
++step
+str_reverse (a=0x92eb5ff970 "hello") at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:22
+22	    for(i=1;a[i]!='\0';i++);
++n
+23	    j=i*2;
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+26	        a[j]=a[i];
++print j
+$1 = 10
++print a[j]
+$2 = 6 '\006'
++n
+27	        j=j-1;
++print a[j]
+$3 = 104 'h'
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+26	        a[j]=a[i];
++n
+27	        j=j-1;
++print a[j]
+$4 = 101 'e'
++print a
+$5 = 0x92eb5ff970 "hello"
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+26	        a[j]=a[i];
++n
+27	        j=j-1;
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+26	        a[j]=a[i];
++n
+27	        j=j-1;
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+26	        a[j]=a[i];
++print a
+$6 = 0x92eb5ff970 "hello"
++print a[j]
+$7 = 0 '\000'
++n
+27	        j=j-1;
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+32	    a[i*2]='\0';
++print a[j]
+$8 = 0 '\000'
++print a
+$9 = 0x92eb5ff970 "hello"
++print a[10]
+$10 = 104 'h'
++print a
+$11 = 0x92eb5ff970 "hello"
++q
++b 9
+No symbol table is loaded.  Use the "file" command.
++b 9
+No symbol table is loaded.  Use the "file" command.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.exe 
+[New Thread 4472.0x1b0]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 received signal SIGSEGV, Segmentation fault.
+0x00007ff7828916dc in str_reverse ()
++b 9
+No symbol table is loaded.  Use the "file" command.
++b 12
+No symbol table is loaded.  Use the "file" command.
++file 9
+9: No such file or directory.
++b 9
+No symbol table is loaded.  Use the "file" command.
++q
++b 9
+No symbol table is loaded.  Use the "file" command.
++cd "c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02"
+"c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02": Invalid argument.
++gcc -g "c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c" -o "c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.exe"
+Undefined command: "".  Try "help".
++q
++b 9
+Breakpoint 1 at 0x140001606: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c, line 9.
++b 9
+Note: breakpoint 1 also set at pc 0x140001606.
+Breakpoint 2 at 0x140001606: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c, line 9.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.exe 
+[New Thread 2844.0x287c]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:9
+9	    str_reverse(a);
++step
+str_reverse (a=0x98b85ffb00 "hello") at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:22
+22	    for(i=1;a[i]!='\0';i++);
++n
+23	    j=i-1;
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+26	        temp[j]=a[i];
++n
+27	        a[j]=a[i];
++print temp[j]
+Cannot access memory at address 0x99205ff9eb
++print a[i]
+$1 = 104 'h'
++n
+
+Thread 1 received signal SIGSEGV, Segmentation fault.
+0x00007ff77be816dc in str_reverse (a=0x98b85ffb00 "hello") at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:27
+27	        a[j]=a[i];
++print a[j]
+Cannot access memory at address 0x99205ffb04
++q
++b 9
+Breakpoint 1 at 0x140001606: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c, line 9.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.exe 
+[New Thread 1836.0x225c]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:9
+9	    str_reverse(a);
++step
+str_reverse (a=0x3b721ffd90 "hello") at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:22
+22	    for(i=1;a[i]!='\0';i++);
++n
+23	    j=i-1;
++n
+24	    for(i=0;a[i]!='\0';i++)
++print k
+No symbol "k" in current context.
++print j
+$1 = 4
++print a[0]
+$2 = 104 'h'
++n
+26	        temp[1]=a[j-1];
++n
+27	        a[j]=a[j-1];
++print temp[1]
+$3 = 108 'l'
++print a[j]
+$4 = 0 '\000'
++n
+28	        a[j-1]=temp[1];        
++print a[j]
+$5 = 0 '\000'
++n
+24	    for(i=0;a[i]!='\0';i++)
++print a[j-1]
+$6 = 108 'l'
++print a[j]
+$7 = 0 '\000'
++q
++b 9
+No symbol table is loaded.  Use the "file" command.
++q
++b 9
+Breakpoint 1 at 0x140001606: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c, line 9.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.exe 
+[New Thread 8588.0x1a54]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:9
+9	    str_reverse(a);
++step
+str_reverse (a=0x847afffb70 "hello") at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:22
+22	    for(i=1;a[i]!='\0';i++);
++n
+23	    j=i-1;
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+26	        temp[1]=a[j-2];
++n
+27	        a[j-1]=a[j-2];
++print temp[1]
+$1 = 108 'l'
++print a[j-2]
+$2 = 0 '\000'
++print a[j-3]
+$3 = 0 '\000'
++n
+28	        a[j-2]=temp[1];        
++n
+24	    for(i=0;a[i]!='\0';i++)
++print a[j-2]
+$4 = 108 'l'
++n
+26	        temp[1]=a[j-2];
++n
+27	        a[j-1]=a[j-2];
++n
+28	        a[j-2]=temp[1];        
++n
+24	    for(i=0;a[i]!='\0';i++)
++print a[j]
+$5 = 0 '\000'
++n
+26	        temp[1]=a[j-2];
++n
+27	        a[j-1]=a[j-2];
++n
+28	        a[j-2]=temp[1];        
++print a[j]
+$6 = 0 '\000'
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+26	        temp[1]=a[j-2];
++n
+27	        a[j-1]=a[j-2];
++print a
+$7 = 0x847afffb70 "hello"
++n
+28	        a[j-2]=temp[1];        
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+26	        temp[1]=a[j-2];
++print a[j-2]
+$8 = 108 'l'
++n
+27	        a[j-1]=a[j-2];
++print a[j-1]
+$9 = 108 'l'
++n
+28	        a[j-2]=temp[1];        
++print temp[1]
+$10 = 108 'l'
++print a[j-2]
+$11 = 108 'l'
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+37	}
++n
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:10
+10	    output(a);
++print a[j]
+No symbol "j" in current context.
++print a
+$12 = "hello\000\000\000†ª\006Qù\177\000\000\001", '\000' <repeats 15 times>, "@\027Bª÷\177\000\000\020", '\000' <repeats 23 times>, "@\025%9]\002\000\000\t\025Bª÷\177\000\000\001\000\000\000\000\000\000\000x\000\000\000\000\000\000\000\000\025%9"
++n
+11	    return 0;
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.exe 
+[New Thread 6588.0xa48]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:9
+9	    str_reverse(a);
++step
+str_reverse (a=0x56849ff8b0 "he") at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:22
+22	    for(i=1;a[i]!='\0';i++);
++n
+23	    j=i-1;
++n
+24	    for(i=0;a[i]!='\0';i++)
++print a[j]
+$13 = 101 'e'
++print a[j-1]
+$14 = 104 'h'
++n
+26	        temp[1]=a[j-2];
++print a[j-2]
+$15 = 0 '\000'
++n
+27	        a[j-1]=a[j-2];
++print temp
+$16 = ""
++print temp[1]
+$17 = 0 '\000'
++print temp[0]
+$18 = 0 '\000'
++n
+28	        a[j-2]=temp[1];        
++print temp[1]
+$19 = 0 '\000'
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.exe 
+[New Thread 12704.0x2374]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:9
+9	    str_reverse(a);
++step
+str_reverse (a=0x35f55ff830 "123") at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:22
+22	    for(i=1;a[i]!='\0';i++);
++n
+23	    j=i-1;
++n
+24	    for(i=0;a[i]!='\0';i++)
++print j
+$20 = 2
++print a[j]
+$21 = 51 '3'
++n
+26	        temp[1]=a[j-2];
++print a[j]
+$22 = 51 '3'
++print a[j-2]
+$23 = 49 '1'
++n
+27	        a[j-1]=a[j-2];
++print temp[1]
+$24 = 49 '1'
++print a[j-2]
+$25 = 0 '\000'
++print a[j-1]
+$26 = 0 '\000'
++n
+28	        a[j-2]=temp[1];        
++print a[j-1]
+$27 = 0 '\000'
++n
+24	    for(i=0;a[i]!='\0';i++)
++print a[j-2]
+$28 = 49 '1'
++q
++b 9
+Breakpoint 1 at 0x140001606: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c, line 9.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.exe 
+[New Thread 12436.0x20e8]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:9
+warning: Source file is more recent than executable.
+9	    str_reverse(a);
++step
+str_reverse (a=0x6e59ffab0 "123") at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:22
+22	    for(i=1;a[i]!='\0';i++);
++n
+23	    j=i-1;
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+26	        temp[1]=a[j-1];
++print a[j-1]
+$1 = 50 '2'
++n
+27	        a[j]=a[j-1];
++print a[j]
+$2 = 0 '\000'
++print a[2]
+$3 = 51 '3'
++print h
+No symbol "h" in current context.
++print j
+$4 = 49
++n
+28	        a[j-1]=temp[1];        
++n
+24	    for(i=0;a[i]!='\0';i++)
++print j
+$5 = 49
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.exe 
+[New Thread 908.0x958]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:9
+9	    str_reverse(a);
++step
+str_reverse (a=0xdb443ffba0 "123") at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:22
+22	    for(i=1;a[i]!='\0';i++);
++n
+23	    j=i-1;
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+26	        temp[1]=a[j-1];
++n
+27	        a[j]=a[j-1];
++n
+28	        a[j-1]=temp[1];        
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+26	        temp[1]=a[j-1];
++q
++b 9
+Breakpoint 1 at 0x140001606: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c, line 9.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.exe 
+[New Thread 12268.0x29e8]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:9
+9	    str_reverse(a);
++step
+str_reverse (a=0x4b763ff8e0 "abc") at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:22
+22	    for(i=1;a[i]!='\0';i++);
++n
+23	    j=i-1;
++n
+24	    for(i=0;a[i]!='\0';i++)
++print j
+$1 = 2
++print a[j]
+$2 = 99 'c'
++n
+26	        temp[1]=a[j-1];
++print a[j-1]
+$3 = 98 'b'
++print temp[1]
+$4 = 2 '\002'
++n
+27	        a[j]=a[j-1];
++print temp[1]
+$5 = 98 'b'
++print a[j-1]
+$6 = 21 '\025'
++print a[j]
+$7 = -101 '›'
++temp[1]=a[j-1]
+Undefined command: "temp".  Try "help".
++print temp[1]=a[j-1]
+$8 = 21 '\025'
++q
++b 9
+Breakpoint 1 at 0x140001606: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c, line 9.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.exe 
+[New Thread 4768.0x32cc]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:9
+9	    str_reverse(a);
++step
+str_reverse (a=0x36997ffcb0 "abc") at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:22
+22	    for(i=1;a[i]!='\0';i++);
++n
+23	    j=i-1;
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+26	        temp[i]=a[j-1];
++print a[j-1]
+$1 = 98 'b'
++print temp[i]
+$2 = 109 'm'
++n
+27	        a[j]=a[j-1];
++print temp[i]
+$3 = 98 'b'
++print a[j-1]
+$4 = 98 'b'
++n
+28	        a[j-1]=temp[i];        
++print a[j]
+$5 = 98 'b'
++n
+29	        j=j-1;
++print a[j-1]
+$6 = 98 'b'
++print aa
+No symbol "aa" in current context.
++print a
+$7 = 0x36997ffcb0 "abb"
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+26	        temp[i]=a[j-1];
++n
+27	        a[j]=a[j-1];
++print a
+$8 = 0x36997ffcb0 "abb"
++t
+[Current thread is 1 (Thread 4768.0x1efc)]
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.exe 
+[New Thread 7368.0x2cd8]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:9
+9	    str_reverse(a);
++step
+str_reverse (a=0xe89cfff760 "abc") at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:22
+22	    for(i=1;a[i]!='\0';i++);
++n
+23	    j=i-1;
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+26	        temp[i]=a[j-1];
++print a[j-1]
+$9 = 98 'b'
++print a[j]
+$10 = 99 'c'
++n
+27	        a[j]=a[j-1];
++print temp[i]
+$11 = 98 'b'
++print a[j]
+$12 = 99 'c'
++q
++b 9
+Breakpoint 1 at 0x140001606: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c, line 9.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.exe 
+[New Thread 12364.0x2de4]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:9
+9	    str_reverse(a);
++step
+str_reverse (a=0xf6127ffce0 "abc") at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:22
+22	    for(i=1;a[i]!='\0';i++);
++n
+23	    j=i-1;
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+26	        temp[i]=a[j];
++n
+27	        a[j]=a[j-1];
++print temp[i]
+$1 = 99 'c'
++n
+28	        a[j-1]=temp[i];        
++print a
+$2 = 0xf6127ffce0 "abb"
++n
+29	        j=j-1;
++print a
+$3 = 0xf6127ffce0 "acb"
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+26	        temp[i]=a[j];
++n
+27	        a[j]=a[j-1];
++n
+28	        a[j-1]=temp[i];        
++n
+29	        j=j-1;
++n
+24	    for(i=0;a[i]!='\0';i++)
++print a
+$4 = 0xf6127ffce0 "cab"
++n
+26	        temp[i]=a[j];
++n
+27	        a[j]=a[j-1];
++n
+28	        a[j-1]=temp[i];        
++n
+29	        j=j-1;
++print a
+$5 = 0xf6127ffce0 ""
++q
++b 9
+Breakpoint 1 at 0x140001606: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c, line 9.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.exe 
+[New Thread 5412.0xa80]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:9
+9	    str_reverse(a);
++step
+str_reverse (a=0x611b5ffda0 "abc") at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:22
+22	    for(i=1;a[i]!='\0';i++);
++n
+23	    j=i*2;
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+27	        a[j]=a[i];
++n
+28	        j=j-1;
++print a[j]
+$1 = 97 'a'
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+27	        a[j]=a[i];
++n
+28	        j=j-1;
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+27	        a[j]=a[i];
++print a[j]
+$2 = -84 '¬'
++n
+28	        j=j-1;
++print a[j]
+$3 = 99 'c'
++n
+24	    for(i=0;a[i]!='\0';i++)
++n
+32	    for(i=0;a[i]!='\0';i++)
++n
+34	        a[i]=a[j];
++print a[j]
+$4 = 0 '\000'
++print a[4]
+$5 = 99 'c'
++print a[4]
+$6 = 99 'c'
++print j
+$7 = 3
++q

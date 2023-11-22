@@ -1,2 +1,74 @@
 Compilation started at 10/31/2023, 12:16:57 PM
 Compilation finished at 10/31/2023, 12:16:58 PM
+Compilation started at 11/22/2023, 4:04:52 PM
+Compilation finished at 11/22/2023, 4:04:53 PM
+Compilation started at 11/22/2023, 4:05:43 PM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c: In function 'str_reverse':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:32:16: error: expected ';' before '}' token
+   32 |     a[i*2]='\0'
+      |                ^
+      |                ;
+......
+   36 | }
+      | ~               
+Compilation finished at 11/22/2023, 4:05:43 PM
+Compilation started at 11/22/2023, 4:05:49 PM
+Compilation finished at 11/22/2023, 4:05:50 PM
+Compilation started at 11/22/2023, 4:15:45 PM
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/22/2023, 4:15:45 PM
+Compilation started at 11/22/2023, 4:15:52 PM
+Compilation finished at 11/22/2023, 4:15:53 PM
+Compilation started at 11/22/2023, 4:17:11 PM
+Compilation finished at 11/22/2023, 4:17:12 PM
+Compilation started at 11/22/2023, 4:18:01 PM
+Compilation finished at 11/22/2023, 4:18:02 PM
+Compilation started at 11/22/2023, 4:18:53 PM
+Compilation finished at 11/22/2023, 4:18:54 PM
+Compilation started at 11/22/2023, 4:18:57 PM
+Compilation finished at 11/22/2023, 4:18:58 PM
+Compilation started at 11/22/2023, 4:23:57 PM
+Compilation finished at 11/22/2023, 4:23:57 PM
+Compilation started at 11/22/2023, 4:25:36 PM
+Compilation finished at 11/22/2023, 4:25:37 PM
+Compilation started at 11/22/2023, 4:25:55 PM
+Compilation finished at 11/22/2023, 4:25:55 PM
+Compilation started at 11/22/2023, 4:32:30 PM
+Compilation finished at 11/22/2023, 4:32:30 PM
+Compilation started at 11/22/2023, 4:32:34 PM
+Compilation finished at 11/22/2023, 4:32:35 PM
+Compilation started at 11/22/2023, 4:32:39 PM
+Compilation finished at 11/22/2023, 4:32:39 PM
+Compilation started at 11/22/2023, 4:35:23 PM
+Compilation finished at 11/22/2023, 4:35:23 PM
+Compilation started at 11/22/2023, 4:35:48 PM
+Compilation finished at 11/22/2023, 4:35:49 PM
+Compilation started at 11/22/2023, 4:36:04 PM
+Compilation finished at 11/22/2023, 4:36:05 PM
+Compilation started at 11/22/2023, 4:38:50 PM
+Compilation finished at 11/22/2023, 4:38:51 PM
+Compilation started at 11/22/2023, 4:40:37 PM
+Compilation finished at 11/22/2023, 4:40:37 PM
+Compilation started at 11/22/2023, 4:40:54 PM
+Compilation finished at 11/22/2023, 4:40:55 PM
+Compilation started at 11/22/2023, 4:41:06 PM
+Compilation finished at 11/22/2023, 4:41:07 PM
+Compilation started at 11/22/2023, 4:41:13 PM
+Compilation finished at 11/22/2023, 4:41:14 PM
+Compilation started at 11/22/2023, 4:42:05 PM
+Compilation finished at 11/22/2023, 4:42:05 PM
+Compilation started at 11/22/2023, 4:42:14 PM
+Compilation finished at 11/22/2023, 4:42:15 PM
+Compilation started at 11/22/2023, 4:42:38 PM
+Compilation finished at 11/22/2023, 4:42:39 PM
+Compilation started at 11/22/2023, 4:43:24 PM
+Compilation finished at 11/22/2023, 4:43:25 PM
+Compilation started at 11/22/2023, 4:43:34 PM
+Compilation finished at 11/22/2023, 4:43:34 PM
+Compilation started at 11/22/2023, 4:57:06 PM
+Compilation finished at 11/22/2023, 4:57:07 PM
+Compilation started at 11/22/2023, 4:57:51 PM
+Compilation finished at 11/22/2023, 4:57:52 PM
+Compilation started at 11/22/2023, 4:59:25 PM
+Compilation finished at 11/22/2023, 4:59:26 PM
