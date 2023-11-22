@@ -41,5 +41,5 @@ int find_gcd(int a,int b)
 }
 void output(int a,int b,int gcd)
 {
-    printf("the command factor is %d",gcd);
+    printf("the command factor of %d and %d is %d",a,b,gcd);
 }
