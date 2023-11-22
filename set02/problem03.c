@@ -21,20 +21,20 @@ int input_number()
 }
 int is_composite(int n)
 {
-    int x=0,i;
-    for(i=1;i<=n;i++)
+    int i;
+    for(i=2;i<n;i++)
     {
         if(n%i==0)
         {
-            x++;
+            return 1;
         }
     }
-    return x;
+    return 0;
     
 }
 void output(int n,int result)
 {
-    if(result>2)
+    if(result==1)
     {
         printf("the number is composite");
 
