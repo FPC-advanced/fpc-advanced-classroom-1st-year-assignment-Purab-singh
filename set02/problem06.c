@@ -18,26 +18,33 @@ void input_string(char *a)
 void str_reverse(char *a)
 {
     int i,end,j;
-    char temp[100];
+    char temp;
     for(i=1;a[i]!='\0';i++);
-    j=i*2;
-    for(i=0;a[i]!='\0';i++)
-    {
-        // a[j+1]=' ';
-        a[j]=a[i];
-        j=j-1;
+    j=i+1;
+    end=i-1;
+    
+        
+    j=j/2;
+    for(i=0;i<j;i++)
+        {
+            temp=a[i];
+            a[i]=a[end];
+            a[end]=temp;
+            end--;
+
+
+
+        }
+        
+    
+    
 
         
-    }
-    j=j+1;
-    for(i=0;a[i]!='\0';i++)
-    {
-        a[i]=a[j];
-        j++;
-    }
-        
-        
 }
+
+        
+        
+
     
     
     

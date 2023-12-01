@@ -78,3 +78,44 @@ Compilation started at 11/22/2023, 5:01:01 PM
 Compilation finished at 11/22/2023, 5:01:01 PM
 Compilation started at 11/22/2023, 5:01:14 PM
 Compilation finished at 11/22/2023, 5:01:15 PM
+Compilation started at 12/1/2023, 10:10:47 AM
+Compilation finished at 12/1/2023, 10:10:48 AM
+Compilation started at 12/1/2023, 10:11:31 AM
+Compilation finished at 12/1/2023, 10:11:32 AM
+Compilation started at 12/1/2023, 10:14:00 AM
+Compilation finished at 12/1/2023, 10:14:01 AM
+Compilation started at 12/1/2023, 10:15:37 AM
+Compilation finished at 12/1/2023, 10:15:38 AM
+Compilation started at 12/1/2023, 10:15:42 AM
+Compilation finished at 12/1/2023, 10:15:43 AM
+Compilation started at 12/1/2023, 10:17:03 AM
+Compilation finished at 12/1/2023, 10:17:03 AM
+Compilation started at 12/1/2023, 11:32:06 AM
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c: In function 'str_reverse':
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:44:26: error: subscripted value is neither array nor pointer nor vector
+   44 |                 a[i]=temp[i];
+      |                          ^
+c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set02\problem06.c:46:28: error: subscripted value is neither array nor pointer nor vector
+   46 |                 a[end]=temp[i];
+      |                            ^
+Compilation finished at 12/1/2023, 11:32:06 AM
+Compilation started at 12/1/2023, 11:32:41 AM
+Compilation finished at 12/1/2023, 11:32:41 AM
+Compilation started at 12/1/2023, 11:32:59 AM
+Compilation finished at 12/1/2023, 11:33:00 AM
+Compilation started at 12/1/2023, 11:34:05 AM
+Compilation finished at 12/1/2023, 11:34:06 AM
+Compilation started at 12/1/2023, 11:34:12 AM
+Compilation finished at 12/1/2023, 11:34:13 AM
+Compilation started at 12/1/2023, 11:34:25 AM
+Compilation finished at 12/1/2023, 11:34:26 AM
+Compilation started at 12/1/2023, 11:34:34 AM
+Compilation finished at 12/1/2023, 11:34:34 AM
+Compilation started at 12/1/2023, 11:34:39 AM
+Compilation finished at 12/1/2023, 11:34:40 AM
+Compilation started at 12/1/2023, 12:10:41 PM
+Compilation finished at 12/1/2023, 12:10:41 PM
+Compilation started at 12/1/2023, 12:10:45 PM
+Compilation finished at 12/1/2023, 12:10:45 PM
+Compilation started at 12/1/2023, 12:10:54 PM
+Compilation finished at 12/1/2023, 12:10:54 PM
