@@ -60,7 +60,7 @@ void input_polygon(Polygon *p)
 float find_distance(Polygon p)
 {
     float total;
-    total=(((p.p[1].x*p.p[1].x))-((p.p[0].x*p.p[0].x)))+(((p.p[1].y*p.p[1].y))-((p.p[0].y*p.p[0].y)));
+    total=(((p.p[1].x-p.p[0].x))*((p.p[1].x-p.p[0].x)))+(((p.p[1].y-p.p[0].y))*(((p.p[1].y-p.p[0].y))));
     float x;
     x=total;
     while(x*x-total>0.00001)
