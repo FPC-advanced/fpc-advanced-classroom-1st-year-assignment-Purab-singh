@@ -34,18 +34,16 @@ float odd_average(int n,int a[n])
 {
     int sum=0,i;
     float avg=0;
-    for(i=0;i<n;i++)
-    {
-        sum=sum+a[i];
-    }
+ 
     for(i=0;i<n;i++)
     {
         if(a[i]%2!=0)
         {
             avg=avg+a[i];
+            sum++;
         }
     }
-    avg=(avg/sum)*10;
+    avg=(avg/sum);
     return avg;
 }
 void output(float avg)
