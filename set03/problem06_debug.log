@@ -10,3 +10,115 @@ Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-clas
 [Thread 12068.0xf50 exited with code 0]
 [Inferior 1 (process 12068) exited normally]
 +q
++b 10
+Breakpoint 1 at 0x140001603: file c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set03\problem06.c, line 10.
++r
+Starting program: c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set03\problem06.exe 
+[New Thread 2060.0x1848]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set03\problem06.c:10
+10	    index=sub_str_index(string,substring);
++step
+sub_str_index (string=0x79381ff800 "helloworldhello", substring=0x79381ff790 "l") at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set03\problem06.c:21
+21	    int i=0,j=0,index=-1,end=0;
++n
+22	    printf("enter the word to be found ");
++n
+23	    scanf("%s",substring);
++n
+24	    for(j=0;substring[j]!='\0';j++);
++n
+25	    end=j-1;
++n
+26	    j=0;
++print end
+$1 = 4
++n
+27	    for(i=0;string[i]!='\0';i++)
++n
+29	        if(string[i]==substring[j])
++n
+27	    for(i=0;string[i]!='\0';i++)
++n
+29	        if(string[i]==substring[j])
++n
+27	    for(i=0;string[i]!='\0';i++)
++n
+29	        if(string[i]==substring[j])
++n
+27	    for(i=0;string[i]!='\0';i++)
++n
+29	        if(string[i]==substring[j])
++n
+27	    for(i=0;string[i]!='\0';i++)
++n
+29	        if(string[i]==substring[j])
++n
+27	    for(i=0;string[i]!='\0';i++)
++n
+29	        if(string[i]==substring[j])
++n
+32	            index++;
++n
+33	            j++;
++n
+34	            if(end==index)
++n
+27	    for(i=0;string[i]!='\0';i++)
++n
+29	        if(string[i]==substring[j])
++n
+32	            index++;
++n
+33	            j++;
++n
+34	            if(end==index)
++n
+27	    for(i=0;string[i]!='\0';i++)
++n
+29	        if(string[i]==substring[j])
++n
+32	            index++;
++n
+33	            j++;
++n
+34	            if(end==index)
++n
+27	    for(i=0;string[i]!='\0';i++)
++n
+29	        if(string[i]==substring[j])
++n
+32	            index++;
++n
+33	            j++;
++n
+34	            if(end==index)
++n
+27	    for(i=0;string[i]!='\0';i++)
++n
+29	        if(string[i]==substring[j])
++n
+32	            index++;
++n
+33	            j++;
++n
+34	            if(end==index)
++n
+36	                index=i-index;
++print end
+$2 = 4
++print index
+$3 = 4
++print i
+$4 = 9
++n
+37	                return index;
++n
+49	}
++n
+main () at c:\Users\purab\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Purab-singh\set03\problem06.c:11
+11	    output(string,substring,index);
++n
+12	    return 0;
++q
